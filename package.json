@@ -1,0 +1,24 @@
+{
+  "name": "pyobot",
+  "version": "1.0.0",
+  "description": "Pyobot - Discord notifier for Pokemon GO",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node ./app/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriakaice/pyobot.git"
+  },
+  "keywords": ["pyobot","pokemon","pokemon go","pogo","discord"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moriakaice/pyobot/issues"
+  },
+  "homepage": "https://github.com/moriakaice/pyobot#readme",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "superagent": "^3.5.2"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+configuration.json
+npm-debug.log
+*.db
+.vscode/

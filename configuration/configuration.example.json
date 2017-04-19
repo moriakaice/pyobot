@@ -1,0 +1,85 @@
+{
+  "keys": {
+    "bot": "",
+    "google": ""
+  },
+  "channels": {
+    "pysgeneral": "293028598024110080",
+    "pyschannel1": "293838131407486980",
+    "pyschannel2": "296066428694429697",
+    "pyschannel3": "296965358533869568",
+    "pyschannel4": "296986176567640064",
+    "pysstatus": "298589684492140546",
+    "pysdexaerodactyl": "299266577700749313",
+    "pysdexchansey": "299617073179525122",
+    "pysdextangela": "299266383626108929",
+    "pysdexhitmontop": "299267205609291786",
+    "pysdexmiltank": "299267062881189889",
+    "pysdextogetic": "299267282033442817",
+    "pysdexunown": "299617117869965312",
+    "pglgeneral": "260119001018007552",
+    "pgldev": "276041020402040833",
+    "pgldratini": "261535019388895232",
+    "pgllarvitar": "283156333015072768",
+    "pglmareep": "298388086881255424",
+    "pglbig": "268886255952068619",
+    "pgldefenders": "268886358762717194",
+    "pgldexfillers": "268886304509394944",
+    "pglsemirares": "268886405223022593",
+    "pglperfect": "260507173296013312"
+  },
+  "postdelay": "3",
+  "changelog": "postdelay",
+  "allTarget": {
+    "111": "pyschannel1",
+    "112": "pyschannel1",
+    "113": "pysdexchansey",
+    "114": "pysdextangela",
+    "129": "pyschannel1",
+    "130": "pyschannel1",
+    "131": "pyschannel1",
+    "133": "pyschannel1",
+    "142": "pysdexaerodactyl",
+    "143": "pglbig",
+    "147": "pgldratini",
+    "148": "pgldratini",
+    "149": "pglbig",
+    "176": "pysdextogetic",
+    "179": "pglmareep",
+    "180": "pglmareep",
+    "181": "pglbig",
+    "201": "pglbig",
+    "237": "pysdexhitmontop",
+    "241": "pysdexmiltank",
+    "242": "pglbig",
+    "246": "pgllarvitar",
+    "247": "pgllarvitar",
+    "248": "pglbig"
+  },
+  "allIV": {
+    "111": -2,
+    "112": -4,
+    "129": -1,
+    "130": -4,
+    "131": -4,
+    "133": -2,
+    "134": -4,
+    "147": -3,
+    "148": -3
+  },
+  "secondTarget": {
+    "113": "pyschannel1",
+    "201": "pysdexunown",
+    "246": "pgldratini",
+    "247": "pgldratini"
+  },
+  "secondIV": {
+    "113": -4,
+    "246": -3,
+    "247": -3
+  },
+  "highchannel": "pglperfect",
+  "highIV": {
+    "113": -2
+  }
+}
