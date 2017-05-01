@@ -1,10 +1,10 @@
 module.exports = {
   getTime: (timecode) => {
     const date = timecode ? new Date(timecode) : new Date()
-    const hours = date.getHours()
+    const hours = '0' + date.getHours()
     const minutes = '0' + date.getMinutes()
     const seconds = '0' + date.getSeconds()
-    return hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2)
+    return hours.substr(-2) + ':' + minutes.substr(-2) + ':' + seconds.substr(-2)
   },
   remainingTime: (time) => {
     time = time - Math.floor(new Date().getTime() / 1000)

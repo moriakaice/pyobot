@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+  <title>Pyobot</title>
+  <meta property="og:title" content="Pyobot">
+  <meta property="og:description" content="Pyobot is a Discord and Facebook Messenger bot for popular Pokemon GO game that uses an existing map system (LondonPogoMap in the first implementation) to deliver alerts about rare spawns that you can catch.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pyobot.ga/">
+  <meta property="fb:app_id" content="402691593448269">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Pyobot</h1>
+    <p class="lead">Pyobot is a Discord and Facebook Messenger bot for popular Pokemon GO game that uses an existing map system (<a href="https://londonpogomap.com/">LondonPogoMap</a>      in the first implementation) to deliver alerts about rare spawns that you can catch.</p>
+    <p>The original implementation was done by Pyorot, then it was converted from a browser script into Node.js application.
+      The source code is available on <a href="https://github.com/moriakaice/pyobot">Github</a>.</p>
+
+    <h2>How to use?</h2>
+
+    <h3>Discord</h3>
+    <p>Just join <a href="https://discord.gg/WH2pwan">the Discord server</a> and set notifications for the channel you're most
+      interested in. It can't get simpler than that!</p>
+    <p>Also, feel free to DM our bot to get personal notifications delivered. Start with <code>!register</code> and see what
+      happens.
+    </p>
+
+    <h3>Facebook Messenger</h3>
+    <p>Come to our <a href="https://www.facebook.com/LondonPokeGoTrackerNotifications/">App page</a> and
+      start conversation with the bot by typing the <code>!register</code> command. After you register, just use the commands
+      outlined below to enjoy notifications coming directly to Messenger.</p>
+
+    <h4>Available Facebook Messenger/Discord commands</h4>
+    <ul>
+      <li><code>!register</code> - allows you to register with the bot (no password required!)</li>
+      <li><code>!unregister</code> - allows you to remove your account from the bot</li>
+      <li><code>!help</code> - provides you with the link to this page :)</li>
+      <li><code>!stop</code> - pauses tracking notifications</li>
+      <li><code>!start</code> - restarts tracking if you have paused it</li>
+      <li><code>!setLocation lat,lng</code> - sets center of your notifications to given coordinates (you can also just share
+        your location with us)</li>
+      <li><code>!unsetLocation</code> - removes previously shared location</li>
+      <li><code>!track <em>PokemonID</em> <em>distance</em></code> - allows you to track selected Pokemon. Distance can either
+        be meters (just put the value), kilometers (add <em>km</em> after the value) or miles (add <em>mi</em>) - or simply
+        <em>all</em> if you don't care about the distance to the spawn</li>
+      <li><code>!untrack <em>PokemonID</em></code> - removes previously set tracking (supplying <em>all</em> in place of ID removes
+        all trackings)</li>
+      <li><code>!myTracking</code> - returns the list of Pokemon you're tracking currently</li>
+    </ul>
+
+    <h2>Stats are fun</h2>
+    <p>If you want to know, we are currently tracking the following Pokemon: Muk, Chansey, Tangela, Lapras, Aerodactyl, Snorlax,
+      Dratini, Dragonair, Dragonite, Togetic, Mareep, Flaaffy, Ampharos, Unown, Hitmontop, Miltank, Blissey, Larvitar, Pupitar
+      and Tyranitar.
+    </p>
+    <p>If you are interested where do those rare Pokemon we track spawn, take a look at the <a href="/historical">historical data map</a>.
+      Just select a layer with the Pokemon that interest you and you can study for any patterns to plan your next trip.</p>
+
+    <h2>Acknowledgements</h2>
+    <p>This project wouldn't be available if it wasn't for important people and services. Here is an incomplete list of them:</p>
+    <ul>
+      <li>Pyorot - the original script creator and maintainer</li>
+      <li><a href="https://londonpogomap.com/">LondonPogoMap</a> - our data provider; if you feel like it, donate to help those
+        guys going</li>
+      <li><a href="http://postcodes.io/">Postcodes.io</a> - providing us with UK postcodes</li>
+      <li><a href="https://locationiq.org/">LocationIQ</a> - OSM Nominatim provider</li>
+      <li><a href="https://firebase.google.com/">Firebase</a> - remote DB solution</li>
+      <li><a href="http://www.pokemongo.com/">Pokemon GO</a> - THE game that changed everything</li>
+    </ul>
+
+    <h2>Privacy concerns</h2>
+    <p>As with every server tool, you have to keep in mind that any data you share with the bot (especially location) is going
+      to be stored in the database. Even though we will keep only the last location you give us (and any new location will
+      overwrite the old value) and you can always remove it by using <code>!unsetLocation</code> command, this might be a
+      privacy concern for some.</p>
+    <p>On Discord, you'll be identified by the channel ID of the DM between you and the bot. Since we <strong>do not</strong>      store your user ID or nickname, there should be no easy way to identify who is the data belonging to even to the bot
+      maintainers.
+    </p>
+    <p>On Facebook Messenger, however, even though you are identified by the Facebook Application User Id, which is different
+      to your Facebook User Id, the page will maintain your chat history, so it will be easy to identify the account used
+      to communicate with the bot that way for the Facebook Page maintainers.</p>
+    <p>If privacy is a concern to you, we can suggest some solutions:</p>
+    <ul>
+      <li>Use location that's not straight on your home/work place, but somewhere close enough and just adjust the range of your
+        tracking
+      </li>
+      <li>Use spare/fake account to do communication with the bot, so that it is not easy to associate your real identity with
+        the location provided</li>
+      <li>Unset your location when you don't need the notifications to minimise the time it is available in the database</li>
+      <li>Do not use ranged notifications, but rather stick to "all" range, so that you won't have to share your location at
+        all
+      </li>
+    </ul>
+  </div>
+
+  <a href="https://github.com/moriakaice/pyobot"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+      alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

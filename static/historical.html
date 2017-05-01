@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+    crossorigin="" />
+  <title>Pyobot - Map of historical spawns</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    html,
+    body,
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .circle-icon {
+      width: 8px;
+      height: 8px;
+      background: blue;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" crossorigin=""></script>
+
+  <script>
+    var layerGroups = {}
+    var map = L.map('map').setView([51.505, -0.09], 12)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+      minZoom: 10,
+    }).addTo(map)
+
+    var circleIcon = L.divIcon({
+      className: 'circle-icon',
+      iconSize: [8, 8],
+    })
+
+    var pokemonIds = [89, 113, 114, 131, 142, 143, 147, 148, 149, 176, 179, 180, 181, 201, 237, 241, 242, 246, 247, 248]
+    var pokeDict = { 89: "Muk", 113: "Chansey", 114: "Tangela", 131: "Lapras", 142: "Aerodactyl", 143: "Snorlax", 147: "Dratini", 148: "Dragonair", 149: "Dragonite", 176: "Togetic", 179: "Mareep", 180: "Flaaffy", 181: "Ampharos", 201: "Unown", 237: "Hitmontop", 241: "Miltank", 242: "Blissey", 246: "Larvitar", 247: "Pupitar", 248: "Tyranitar" }
+    var ignored = [147]
+    var overlays = {}
+
+    pokemonIds.forEach(function (pokemonId) {
+      if (ignored.indexOf(pokemonId) !== -1) {
+        return
+      }
+
+      if (!layerGroups[pokemonId]) {
+        layerGroups[pokemonId] = L.layerGroup()
+        overlays[pokeDict[pokemonId]] = layerGroups[pokemonId]
+      }
+
+      jQuery.getJSON('/historical/' + pokemonId)
+        .done(function (data) {
+          data.forEach(function (marker) {
+            var name = (pokemonId === 201 && marker.form !== 0) ? pokeDict[pokemonId] + ' ' + String.fromCharCode(marker.form + 64) : pokeDict[pokemonId]
+
+            layerGroups[pokemonId].addLayer(
+              L.marker([marker.lat, marker.lng], { icon: circleIcon, title: name, alt: name })
+            )
+          })
+        })
+    })
+
+    L.control.layers(null, overlays).addTo(map)
+  </script>
+</body>
+
+</html>
