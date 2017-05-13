@@ -1,6 +1,6 @@
 {
   "name": "pyobot",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Pyobot - Discord notifier for Pokemon GO",
   "main": "app/main.js",
   "scripts": {
@@ -20,9 +20,12 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "discord.js": "^11.0.0",
+    "ejs": "^2.5.6",
     "express": "^4.15.2",
     "firebase-admin": "^4.2.1",
     "nedb": "^1.8.0",
+    "ospoint": "^0.2.0",
+    "pushbullet": "^2.0.0",
     "spdy": "^3.4.4",
     "superagent": "^3.5.2"
   }

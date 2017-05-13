@@ -1,0 +1,197 @@
+[
+  {
+    "name": "All Saints",
+    "lat": 51.510301,
+    "lng": -0.012832
+  },
+  {
+    "name": "Beckton",
+    "lat": 51.514411,
+    "lng": 0.06164
+  },
+  {
+    "name": "Beckton Park",
+    "lat": 51.508758,
+    "lng": 0.054778
+  },
+  {
+    "name": "Blackwall",
+    "lat": 51.507903,
+    "lng": -0.007438
+  },
+  {
+    "name": "Bow Church",
+    "lat": 51.5289,
+    "lng": -0.021
+  },
+  {
+    "name": "Canary Wharf",
+    "lat": 51.505946,
+    "lng": -0.020493
+  },
+  {
+    "name": "Canning Town",
+    "lat": 51.51388,
+    "lng": 0.008876
+  },
+  {
+    "name": "Crossharbour",
+    "lat": 51.495086,
+    "lng": -0.014543
+  },
+  {
+    "name": "Custom House",
+    "lat": 51.509731,
+    "lng": 0.026013
+  },
+  {
+    "name": "Cutty Sark",
+    "lat": 51.481713,
+    "lng": -0.010811
+  },
+  {
+    "name": "Cyprus",
+    "lat": 51.50836,
+    "lng": 0.06399
+  },
+  {
+    "name": "Deptford Bridge",
+    "lat": 51.478016,
+    "lng": -0.022496
+  },
+  {
+    "name": "Devons Road",
+    "lat": 51.522274,
+    "lng": -0.01708
+  },
+  {
+    "name": "East India",
+    "lat": 51.509516,
+    "lng": -0.002128
+  },
+  {
+    "name": "Elverson Road",
+    "lat": 51.468768,
+    "lng": -0.016265
+  },
+  {
+    "name": "Gallions Reach",
+    "lat": 51.509111,
+    "lng": 0.071911
+  },
+  {
+    "name": "Greenwich",
+    "lat": 51.478016,
+    "lng": -0.015391
+  },
+  {
+    "name": "Heron Quays",
+    "lat": 51.5046489,
+    "lng": -0.0207681
+  },
+  {
+    "name": "Island Gardens",
+    "lat": 51.488001,
+    "lng": -0.011039
+  },
+  {
+    "name": "King George V",
+    "lat": 51.50202,
+    "lng": 0.06299
+  },
+  {
+    "name": "Lewisham",
+    "lat": 51.46554,
+    "lng": -0.013196
+  },
+  {
+    "name": "Lewisham",
+    "lat": 51.465216,
+    "lng": -0.013166
+  },
+  {
+    "name": "Limehouse",
+    "lat": 51.5124366,
+    "lng": -0.0395511
+  },
+  {
+    "name": "London City Airport",
+    "lat": 51.50319,
+    "lng": 0.04864
+  },
+  {
+    "name": "Mudchute",
+    "lat": 51.491185,
+    "lng": -0.014595
+  },
+  {
+    "name": "Pontoon Dock",
+    "lat": 51.50205,
+    "lng": 0.03308
+  },
+  {
+    "name": "Poplar",
+    "lat": 51.507725,
+    "lng": -0.016503
+  },
+  {
+    "name": "Prince Regent",
+    "lat": 51.509471,
+    "lng": 0.033473
+  },
+  {
+    "name": "Pudding Mill Lane",
+    "lat": 51.5339,
+    "lng": -0.0142
+  },
+  {
+    "name": "Royal Albert",
+    "lat": 51.508456,
+    "lng": 0.046148
+  },
+  {
+    "name": "Royal Victoria",
+    "lat": 51.509156,
+    "lng": 0.018083
+  },
+  {
+    "name": "Shadwell",
+    "lat": 51.51163,
+    "lng": -0.05625
+  },
+  {
+    "name": "Shadwell",
+    "lat": 51.511853,
+    "lng": -0.05548
+  },
+  {
+    "name": "South Quay",
+    "lat": 51.500413,
+    "lng": -0.018636
+  },
+  {
+    "name": "Stratford",
+    "lat": 51.54047,
+    "lng": -0.005085
+  },
+  {
+    "name": "Tower Gateway",
+    "lat": 51.510911,
+    "lng": -0.073466
+  },
+  {
+    "name": "Westferry",
+    "lat": 51.509576,
+    "lng": -0.02699
+  },
+  {
+    "name": "West India Quay",
+    "lat": 51.506723,
+    "lng": -0.01988
+  },
+  {
+    "name": "West Silvertown",
+    "lat": 51.50335,
+    "lng": 0.02208
+  }
+]

@@ -6,7 +6,9 @@ const bodyParser = require('body-parser')
 const request = require('superagent')
 const path = require('path')
 const Datastore = require('nedb')
-const facebook = require('./api/facebook.js')
+const dicts = require('./dicts.js')
+const facebookAPI = require('./api/facebook.js')
+const firebase = require('./api/firebase.js')
 const configuration = require('../configuration/configuration.json')
 const app = express()
 
@@ -31,11 +33,46 @@ const server = {
         console.log('Server started and listening on port 443')
       }
     })
+
+    app.set('view engine', 'ejs')
+
     app.use(bodyParser.urlencoded({ extended: false }))
     app.use(bodyParser.json())
+    app.use('/assets', express.static(path.join(__dirname, '..', 'static', 'assets')))
 
     app.get('/', function (req, res) {
       res.sendFile(path.join(__dirname, '..', 'static', 'index.html'))
+    })
+
+    app.get('/help', function (req, res) {
+      res.sendFile(path.join(__dirname, '..', 'static', 'help.html'))
+    })
+
+    app.get('/help-advanced', function (req, res) {
+      res.sendFile(path.join(__dirname, '..', 'static', 'help-advanced.html'))
+    })
+
+    app.get('/privacy-policy', function (req, res) {
+      res.sendFile(path.join(__dirname, '..', 'static', 'privacy-policy.html'))
+    })
+
+    app.get('/tracking/:api/:id', function (req, res) {
+      const tracked = {}
+      let status = firebase.users.data[req.params.api.toLowerCase()] && firebase.users.data[req.params.api.toLowerCase()][req.params.id] ? firebase.users.data[req.params.api.toLowerCase()][req.params.id].active : false
+      Object.keys(firebase.trackings.data).forEach((pokemonId) => {
+        if (firebase.trackings.data[pokemonId][req.params.api.toLowerCase() + '*' + req.params.id]) {
+          tracked[pokemonId] = {
+            name: dicts.pokeDict[pokemonId],
+            distance: firebase.trackings.data[pokemonId][req.params.api.toLowerCase() + '*' + req.params.id]
+          }
+        }
+      })
+
+      res.render(path.join(__dirname, '..', 'static', 'tracking'), {
+        tracked: tracked,
+        api: req.params.api,
+        status: status,
+      })
     })
 
     app.get('/historical', function (req, res) {
@@ -61,6 +98,15 @@ const server = {
       })
     })
 
+    app.get('/tracking', function (req, res) {
+      const trackedPokemon = []
+      configuration.tracked.forEach((id) => {
+        trackedPokemon.push(dicts.pokeDict[id])
+      })
+
+      res.json(trackedPokemon)
+    })
+
     // Facebook Webhook
     app.get('/webhook', function (req, res) {
       if (req.query['hub.verify_token'] === configuration.keys.facebookVerifyToken) {
@@ -80,7 +126,7 @@ const server = {
             return false
           }
 
-          facebook.parseEvent(event)
+          facebookAPI.parseEvent(event)
         })
       }
       res.sendStatus(200)

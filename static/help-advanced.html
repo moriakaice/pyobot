@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+  <title>Pyobot - Advanced Users Help Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1><a href="/">Pyobot</a> - advanced help</h1>
+    <p class="lead">If you feel <a href="/help">basic operation of Pyobot</a> is easy for you, you might be ready to dive deeper into what the bot can provide. Don't worry, we've got you covered.</p>
+
+    <a name="custom-notifications"></a>
+    <h2>Custom notifications format</h2>
+    <p>A word of warning: this is more advanced topic that is completely optional. If you feel that the default one is enough
+      for you, feel free to ignore this chapter of the Help.</p>
+
+    <h3>Enabling/disabling custom notification format</h3>
+    <p>To enable the feature, message the bot with following command: <code>!enableCustomFormat 1</code>.</p>
+    <p>Similarly, to disable it send: <code>!enableCustomFormat 0</code>.</p>
+
+    <h3>Setting custom format</h3>
+    <p>For Discord, there are two field available: title and body, while Facebook Messenger has only one available: body. Therefore,
+      the command to set the title is Discord-exclusive and Facebook Messenger users have to put everything they want to
+      see in the body field.</p>
+
+    <h4>Syntax</h4>
+    <p>Custom title: <code>!setCustomTitle &lt;custom title format&gt;</code>.</p>
+    <p>Custom body: <code>!setCustomBody &lt;custom body format&gt;</code>.</p>
+
+    <h4>Available variables</h4>
+    <ul>
+      <li><code>%attack%</code> - if IVs are available for a given spawn, this will return Attack value of the Pokemon. Sample
+        value:
+        <code>5</code>;</li>
+      <li><code>%defence%</code> - if IVs are available for a given spawn, this will return Defence value of the Pokemon. Sample
+        value:
+        <code>3</code>;</li>
+      <li><code>%stamina%</code> - if IVs are available for a given spawn, this will return Stamina (HP) value of the Pokemon.
+        Sample value: <code>15</code>;</li>
+      <li><code>%move1%</code> - if moves are available for a given spawn, this will return first Move of the Pokemon. Sample
+        value:
+        <code>Lick</code>;</li>
+      <li><code>%move2%</code> - if moves are available for a given spawn, this will return second Move of the Pokemon. Sample
+        value:
+        <code>Blizzard</code>;</li>
+      <li><code>%gender%</code> - this will return gender symbol of the Pokemon or empty if genderless. Sample value: <code>♀</code>;</li>
+      <li><code>%id%</code> - this will return ID of the Pokemon. Sample value: <code>151</code>;</li>
+      <li><code>%cp%</code> - if available for a given spawn, this will return CP of the Pokemon. Sample value:
+        <code>1230</code>;</li>
+      <li><code>%iv%</code> - if IVs are available for a given spawn, this will return sum of IVs the Pokemon. Sample value:
+        <code>45</code>;</li>
+      <li><code>%ivPercent%</code> - if IVs are available for a given spawn, this will return percentage value of IV of the Pokemon.
+        Sample value: <code>58%</code>;</li>
+      <li><code>%suburb%</code> - if available, will return suburb location data of the Pokemon. Sample value: <code>Becontree Heath</code>;</li>
+      <li><code>%postcode%</code> - if available, will return suburb location data of the Pokemon. Sample value: <code>RM9</code>;</li>
+      <li><code>%niceName%</code> - this will return the full name of the Pokemon (Unowns will have their letter form added).
+        Sample value: <code>Snorlax</code>;</li>
+      <li><code>%remainingTime%</code> - this will return time left to catch the Pokemon, in minutes and seconds format. Be aware
+        that it will only be valid at the time the notification was sent. Also known as Time To Despawn. Sample value: <code>23:15</code>;</li>
+      <li><code>%expiryTime%</code> - this will return time when the Pokemon will despawn, in hour, minutes and seconds format.
+        Also known as Time Of Despawn. Sample value: <code>10:12:23</code>;</li>
+      <li><code>%location%</code> - this will return postcode + suburb if available, otherwise just postcode. Sample value: <code>RM9 Becontree Heath</code>;</li>
+      <li><code>%locationMapUrl%</code> - link to Google Maps with the location of the Pokemon. Sample value: <code>https://www.google.com/maps/place/51.48376259,-0.24130472</code>;</li>
+      <li><code>%closestStationName%</code> - if available, this will return closest Tube, DLR or railway station of the Pokemon.
+        The maximum distance between the station and the Pokemon is 500 metres in a straight line. Sample value: <code>West Ealing</code>;</li>
+      <li><code>%distance%</code> - if you set your location, this will return the distance between your location and the Pokemon
+        in kilometres. Sample value: <code>0.35</code>;</li>
+    </ul>
+
+    <h4>Sample</h4>
+    <p>Executing the following command on Discord:</p>
+    <ul>
+      <li><code>!enableCustomFormat 1</code></li>
+      <li><code>!setCustomTitle %niceName% %ivPercent% %gender%</code></li>
+      <li><code>!setCustomBody Expires: %expiryTime% | %distance%km | %closestStation% | %postcode%</code></li>
+    </ul>
+    <p>will result in something similar to the following sceenshot:</p>
+    <figure><img src="/assets/custom-notification-sample.jpg" alt="Custom Notification Sample" title="Custom Notification Sample"></figure>
+    <p>Reminder: the <code>!setCustomTitle</code> command is Discord-exclusive. For Facebook Messenger, just put everything
+      in the <code>!setCustomBody</code>.</p>
+
+    <a name="bugs"></a>
+    <h2>I found a bug, what to do now?</h2>
+    <p>First of all - sorry for that. We are striving to provide you with the best experience possible, but unfortunately, as
+      always with the software, errors do happen.</p>
+    <p>If you believe you found a bug - a command didn't work for you or a notification was missing for example - come to
+      <a href="https://discord.gg/AWdp2BM">Discord</a> and post about your problem on the <em>#dev</em> channel.</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

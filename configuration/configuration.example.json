@@ -1,28 +1,290 @@
 {
+  "admin": {
+    "discord": [],
+    "facebook": []
+  },
   "keys": {
     "bot": "",
     "google": "",
     "facebook": "",
-    "locationiq": "",
-    "facebookVerifyToken": ""
+    "facebookVerifyToken": "",
+    "locationiq": ""
   },
   "notifications": {
     "discord": false,
-    "facebook": false
+    "facebook": false,
+    "pushbullet": false
   },
   "firebase": {
     "databaseURL": "",
     "credentials": {}
   },
   "sslDomain": "",
-  "homepage": "https://google.com",
+  "homepage": "",
   "map": "londonpogomap",
   "tracked": [149],
   "channels": {
     "pysgeneral": "1"
   },
-  "allTarget": {
-    "149": "pysgeneral"
+  "filters": {
+    "89": [
+      {
+        "channel": "pysgeneral"
+      }
+    ],
+    "112": [
+      {
+        "channel": "pysgeneral",
+        "iv": -4
+      }
+    ]
   },
-  "browser": ""
+  "highCP": {
+    "channel": "pysgeneral",
+    "minCP": 2400
+  },
+  "highLevel": {
+    "channel": "pysgeneral",
+    "minLevel": 30
+  },
+  "highchannel": "pysgeneral",
+  "highIV": {},
+  "browser": "",
+  "commands": [
+    {
+      "name": "help",
+      "command": "!help",
+      "description": "Returns the help information on how to use the bot",
+      "pattern": "^!help",
+      "flags": "i",
+      "isRegistered": false,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "register",
+      "command": "!register",
+      "description": "Command required to register with the bot",
+      "pattern": "^!register",
+      "flags": "i",
+      "isRegistered": false,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "unregister",
+      "command": "!unregister",
+      "description": "Allows to remove the account within the bot",
+      "pattern": "^!unregister",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "stop",
+      "command": "!stop",
+      "description": "Stops the active notifications",
+      "pattern": "^(!stop|!pause)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "start",
+      "command": "!start",
+      "description": "Starts active notifications if you stopped them before",
+      "pattern": "^!(re|)?start",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "saveLocation",
+      "command": "!saveLocation lat,lng name",
+      "description": "Saves location to favorites",
+      "pattern": "!saveLocation.*?([0-9\\-\\.]+),.*?([0-9\\-\\.]+)\\s+([a-z0-9\\-]+)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "setLocation",
+      "command": "!setLocation lat,lng",
+      "description": "Sets center of your notifications to given coordinates (you can also just share your location directly on Messenger)",
+      "pattern": "!setLocation.*?([0-9\\-\\.]+),.*?([0-9\\-\\.]+)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "setLocation",
+      "command": "!setLocation name",
+      "description": "Sets center of your notifications to previously set favorite location",
+      "pattern": "!setLocation.*?([a-z0-9\\-]+)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "unsetLocation",
+      "command": "!unsetLocation",
+      "description": "Removes previously shared location",
+      "pattern": "^!unsetLocation",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "track",
+      "command": "!track <Pokemon> <Distance>",
+      "description": "Allows tracking certain Pokemon (you can supply either name or ID of the Pokemon) on a given distance (accepted: all, number (in meters), km or mi).",
+      "pattern": "^!track.*?([0-9a-z\\-']+).*?(all|[0-9\\.]+km|[0-9\\.]+mi|[0-9]+)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "untrack",
+      "command": "!untrack <Pokemon>",
+      "description": "Removes tracking of certain Pokemon (you can supply either name or ID of the Pokemon). Use 'all' to remove all trackings",
+      "pattern": "^!untrack.*?([0-9a-z\\-']+)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "myTracking",
+      "command": "!myTracking",
+      "description": "Returns the list of your current active trackings",
+      "pattern": "^!myTracking",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook",
+        "discord"
+      ]
+    },
+    {
+      "name": "pyobotTracking",
+      "command": "!pyobotTracking",
+      "description": "Returns the list of bot's active trackings",
+      "pattern": "^!pyobotTracking",
+      "flags": "i",
+      "isRegistered": false,
+      "isPrivate": false,
+      "isAdmin": false,
+      "api": [
+        "discord"
+      ]
+    },
+    {
+      "name": "pyobotTracking",
+      "command": "!pyobotTracking",
+      "description": "Returns the list of bot's active trackings",
+      "pattern": "^!pyobotTracking",
+      "flags": "i",
+      "isRegistered": false,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "facebook"
+      ]
+    },
+    {
+      "name": "enableCustomFormat",
+      "command": "!enableCustomFormat <0|1>",
+      "description": "Enables or disables custom formatting of DM",
+      "pattern": "^!enableCustomFormat\\s+(0|1)",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "discord",
+        "facebook"
+      ]
+    },
+    {
+      "name": "setCustomTitle",
+      "command": "!setCustomTitle <custom title format>",
+      "description": "Formatting for custom title for DM notification",
+      "pattern": "^!setCustomTitle\\s+(.*)$",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "discord"
+      ]
+    },
+    {
+      "name": "setCustomBody",
+      "command": "!setCustomBody <custom body format>",
+      "description": "Formatting for custom body for DM notification",
+      "pattern": "^!setCustomBody\\s+(.*)$",
+      "flags": "i",
+      "isRegistered": true,
+      "isPrivate": true,
+      "isAdmin": false,
+      "api": [
+        "discord",
+        "facebook"
+      ]
+    }
+  ]
 }

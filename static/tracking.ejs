@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content "noindex, nofollow">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+  <title>Pyobot - Your Trackings Page</title>
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+    <div class="col-12">
+      You are currently tracking following Pokemon on <%= api %>: [Status: <%= status ? 'Active' : 'Stopped' %>]
+    </div>
+  </div>
+
+  <% if (tracked && Object.keys(tracked).length) { %>
+    <div class="row">
+      <div class="col-4">Pokemon ID</div>
+      <div class="col-4">Pokemon Name</div>
+      <div class="col-4">Distance</div>
+    </div>
+    <% Object.keys(tracked).forEach(id => { %>
+      <div class="row">
+        <div class="col-4"><%= id %></div>
+        <div class="col-4"><%= tracked[id].name %></div>
+        <div class="col-4"><%= tracked[id].distance %></div>
+      </div>
+    <% }) %>
+  <% } else { %>
+    <div class="row">
+      You are not tracking any Pokemon at the moment.
+    </div>
+  <% } %>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

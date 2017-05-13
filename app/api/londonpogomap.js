@@ -21,7 +21,7 @@ const londonPogoMap = {
         pokemonUtil.parsePokemon(data.pokemons)
         const inserted = data.meta.inserted
 
-        logger.log('Ran at ' + time.getTime())
+        logger.log('[Map] Ran at ' + time.getTime())
         setTimeout(function () {
           londonPogoMap.getPokemon(inserted)
         }, 30 * 1000)
