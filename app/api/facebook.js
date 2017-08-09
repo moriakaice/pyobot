@@ -6,9 +6,11 @@ const firebase = require('./firebase.js')
 const dicts = require('../dicts.js')
 const configuration = require('../../configuration/configuration.json')
 
+const helpUrl = configuration.helppage ? configuration.helppage : `${configuration.homepage}/help`
+
 const texts = {
   'UNKNOWN_COMMAND': 'We are sorry, but we were unable to recognise the command',
-  'HELP': `For help on how to use the bot, visit ${configuration.homepage}/help`,
+  'HELP': `For help on how to use the bot, visit ${helpUrl}`,
   'NOT_AUTHORISED': 'We are sorry, but you are not authorised to execute this command',
   'REGISTERED': 'Thank you for registering for the service. Type !help for all the available commands',
   'UNREGISTERED': 'We are sorry to see you go :(',
