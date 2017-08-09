@@ -3,6 +3,7 @@ const logger = require('../logger.js')
 const bot = require('../bot.js')
 const firebase = require('./firebase.js')
 const dicts = require('../dicts.js')
+const time = require('../time.js')
 const configuration = require('../../configuration/configuration.json')
 
 const helpUrl = configuration.helppage ? configuration.helppage : `${configuration.homepage}/help`
@@ -392,22 +393,45 @@ class DiscordAPI {
   send(message, channelName, type) {
     const channelId = configuration.channels[channelName] ? configuration.channels[channelName] : channelName
     const channel = this.client.channels.get(channelId)
+    let richEmbed
+    if (message.pokemon) {
+      message.pokemon.remainingTime = time.timeToString(time.remainingTime(message.pokemon.despawn))
 
-    if (channel) {
-      let richEmbed = this.createRichEmbed(message.pokemon)
+      richEmbed = this.createRichEmbed(message.pokemon)
 
       if (type === '[DM]' && firebase.users.data.discord[channelId] && firebase.users.data.discord[channelId].customFormat) {
         richEmbed = this.createCustomRichEmbed(message.pokemon, channelId)
       }
+    }
 
-      const cp = message.pokemon.cp > 0 ? 'CP ' + message.pokemon.cp : ''
-
+    if (firebase.users.data.discord && firebase.users.data.discord[channelId] && firebase.users.data.discord[channelId].userId) {
+      const userPromise = this.client.fetchUser(firebase.users.data.discord[channelId].userId)
+      userPromise.then(user => {
+        user.createDM().then(dmChannel => {
+          dmChannel.send(message.content, richEmbed)
+            .then((response) => {
+              const content = message.content ? message.content : richEmbed.embed.title + ' | ' + message.pokemon.expiryTime + ' | ' + message.pokemon.remainingTime
+              logger.log(`[Discord]${type}[${this.getAuthorName(channelId)}] ${content}`)
+            })
+            .catch(err => {
+              logger.error(`[Discord][Send][${this.getAuthorName(channelId)}]`, err)
+            })
+        })
+          .catch(msg => {
+            logger.error(`[Discord][DM][${this.getAuthorName(channelId)}] Unable to send DM message and create DM Channel`)
+          })
+      }).catch(msg => {
+        logger.error(`[Discord][DM][${this.getAuthorName(channelId)}][Promise] Unable to send DM message and create DM Channel`)
+      })
+    } else if (channel) {
       channel.send(message.content, richEmbed)
         .then((response) => {
-          const content = message.content ? message.content : richEmbed.embed.title + ' | ' + message.pokemon.expiryTime
-          logger.log('[Discord]' + type + '[' + channelName + '] ' + content)
+          const content = message.content ? message.content : richEmbed.embed.title + ' | ' + message.pokemon.expiryTime + ' | ' + message.pokemon.remainingTime
+          logger.log(`[Discord]${type}[${channelName}] ${content}`)
         })
-        .catch(logger.error)
+        .catch(err => {
+          logger.error('[Discord][Send]', err)
+        })
     } else {
       logger.error('[Discord] Unable to send message - channel not found: ' + channelName)
     }
