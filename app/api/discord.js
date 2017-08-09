@@ -67,6 +67,7 @@ class DiscordAPI {
     if (channel) {
       firebase.users.data.discord[message.channel.id] = { active: true }
       firebase.db.ref('users').child('discord').set(firebase.users.data.discord)
+      this.saveAuthorData(message.channel.id, message.author)
 
       channel.send(texts.REGISTERED)
         .then((response) => {
@@ -358,6 +359,23 @@ class DiscordAPI {
     return configuration.admin && configuration.admin.discord && configuration.admin.discord.includes(sender)
   }
 
+  getAuthorName(sender) {
+    return this.hasAuthorData(sender) ? `${firebase.users.data.discord[sender].username} (${sender})` : sender
+  }
+
+  hasAuthorData(sender) {
+    return firebase.users.data.discord && firebase.users.data.discord[sender] && firebase.users.data.discord[sender].userId
+  }
+
+  saveAuthorData(sender, author) {
+    if (firebase.users.data.discord && firebase.users.data.discord[sender]) {
+      if (author.id) { firebase.users.data.discord[sender].userId = author.id }
+      if (author.username) { firebase.users.data.discord[sender].username = author.username }
+      if (author.discriminator) { firebase.users.data.discord[sender].discriminator = author.discriminator }
+      firebase.db.ref('users').child('discord').child(sender).set(firebase.users.data.discord[sender])
+    }
+  }
+
   setTriggers() {
     this.client.on('ready', () => {
       this.logged = true
@@ -384,6 +402,10 @@ class DiscordAPI {
 
           if (command.isRegistered && !this.isRegistered(message.channel.id)) {
             this.register(message)
+          }
+
+          if (command.isRegistered && !this.hasAuthorData(message.channel.id)) {
+            this.saveAuthorData(message.channel.id, message.author)
           }
 
           this[command.name](message, match)
