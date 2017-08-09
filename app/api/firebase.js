@@ -6,8 +6,13 @@ const firebaseApp = admin.initializeApp({
   databaseURL: configuration.firebase.databaseURL
 }, 'firebase')
 const db = firebaseApp.database()
-const users = { data: {} }
 
+const users = { data: {} }
+Object.keys(configuration.notifications).forEach(type => {
+  if (configuration.notifications[type]) {
+    users.data[type] = {}
+  }
+})
 db.ref('users').on('value', function (snapshot) {
   users.data = snapshot.val() ? snapshot.val() : users.data
 }, function (errorObject) {
