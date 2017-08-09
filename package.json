@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/moriakaice/pyobot.git"
   },
-  "keywords": ["pyobot","pokemon","pokemon go","pogo","discord"],
+  "keywords": [
+    "pyobot",
+    "pokemon",
+    "pokemon go",
+    "pogo",
+    "discord"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,6 +25,7 @@
   "homepage": "https://github.com/moriakaice/pyobot#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "bufferutil": "^3.0.2",
     "discord.js": "^11.1.0",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
