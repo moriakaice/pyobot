@@ -50,10 +50,8 @@ class DiscordAPI {
   }
 
   help(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
-      channel.send(texts.HELP)
+    if (message.channel) {
+      message.channel.send(texts.HELP)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Requested help')
         })
@@ -62,14 +60,12 @@ class DiscordAPI {
   }
 
   register(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       firebase.users.data.discord[message.channel.id] = { active: true }
       firebase.db.ref('users').child('discord').set(firebase.users.data.discord)
       this.saveAuthorData(message.channel.id, message.author)
 
-      channel.send(texts.REGISTERED)
+      message.channel.send(texts.REGISTERED)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Registered')
         })
@@ -78,13 +74,11 @@ class DiscordAPI {
   }
 
   unregister(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       delete firebase.users.data.discord[message.channel.id]
       firebase.db.ref('users').child('discord').child(message.channel.id).set(null)
 
-      channel.send(texts.UNREGISTERED)
+      message.channel.send(texts.UNREGISTERED)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Unregistered')
         })
@@ -93,13 +87,11 @@ class DiscordAPI {
   }
 
   stop(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       firebase.users.data.discord[message.channel.id].active = false
       firebase.db.ref('users').child('discord').child(message.channel.id).update({ active: false })
 
-      channel.send(texts.STOPPED)
+      message.channel.send(texts.STOPPED)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Stopped global tracking')
         })
@@ -108,13 +100,11 @@ class DiscordAPI {
   }
 
   start(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       firebase.users.data.discord[message.channel.id].active = true
       firebase.db.ref('users').child('discord').child(message.channel.id).update({ active: true })
 
-      channel.send(texts.STARTED)
+      message.channel.send(texts.STARTED)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Started global tracking')
         })
@@ -123,9 +113,7 @@ class DiscordAPI {
   }
 
   saveLocation(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       match[1] = parseFloat(match[1])
       match[2] = parseFloat(match[2])
 
@@ -139,7 +127,7 @@ class DiscordAPI {
       }
       firebase.db.ref('users').child('discord').child(message.channel.id).update(firebase.users.data.discord[message.channel.id])
 
-      channel.send(texts.SAVED_NEW_FAV_LOCATION.replace('%lat', match[1]).replace('%lng', match[2]).replace('%name', match[3]))
+      message.channel.send(texts.SAVED_NEW_FAV_LOCATION.replace('%lat', match[1]).replace('%lng', match[2]).replace('%name', match[3]))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Set new fav location ' + match[3] + ': ' + match[1] + ',' + match[2])
         })
@@ -148,9 +136,7 @@ class DiscordAPI {
   }
 
   setLocation(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       if (!match[2]) {
         match[1] = match[1].toLowerCase()
         if (firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]]) {
@@ -176,7 +162,7 @@ class DiscordAPI {
         }
       })
 
-      channel.send(texts.SAVED_NEW_LOCATION.replace('%lat', match[1]).replace('%lng', match[2]))
+      message.channel.send(texts.SAVED_NEW_LOCATION.replace('%lat', match[1]).replace('%lng', match[2]))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Saved new location: ' + match[1] + ',' + match[2])
         })
@@ -185,13 +171,11 @@ class DiscordAPI {
   }
 
   unsetLocation(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       delete firebase.users.data.discord[message.channel.id].location
       firebase.db.ref('users').child('discord').child(message.channel.id).update({ location: null })
 
-      channel.send(texts.REMOVED_LOCATION)
+      message.channel.send(texts.REMOVED_LOCATION)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Unset location')
         })
@@ -200,9 +184,7 @@ class DiscordAPI {
   }
 
   track(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       match[1] = convertNameOrIdToPokemonId(match[1])
 
       if (match[1]) {
@@ -213,7 +195,7 @@ class DiscordAPI {
         firebase.trackings.data[match[1]]['discord*' + message.channel.id] = match[2]
         firebase.db.ref('trackings').child(match[1]).set(firebase.trackings.data[match[1]])
 
-        channel.send(texts.STARTED_TRACKING.replace('%pokemon', dicts.pokeDict[match[1]]).replace('%distance', match[2]))
+        message.channel.send(texts.STARTED_TRACKING.replace('%pokemon', dicts.pokeDict[match[1]]).replace('%distance', match[2]))
           .then((response) => {
             logger.log('[Discord][DM][' + message.channel.id + '] Started tracking ' + dicts.pokeDict[match[1]] + ' on distance: ' + match[2])
           })
@@ -223,9 +205,7 @@ class DiscordAPI {
   }
 
   untrack(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       if (match[1] === 'all') {
         Object.keys(firebase.trackings.data).forEach((pokemonId) => {
           if (firebase.trackings.data[pokemonId]['discord*' + message.channel.id]) {
@@ -242,7 +222,7 @@ class DiscordAPI {
         }
       }
 
-      channel.send(texts.STOPPED_TRACKING.replace('%pokemon', match[1]))
+      message.channel.send(texts.STOPPED_TRACKING.replace('%pokemon', match[1]))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Stopped tracking ' + match[1])
         })
@@ -251,9 +231,7 @@ class DiscordAPI {
   }
 
   myTracking(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       const userTrackings = []
       Object.keys(firebase.trackings.data).forEach((pokemonId) => {
         pokemonId = convertNameOrIdToPokemonId(pokemonId)
@@ -262,7 +240,7 @@ class DiscordAPI {
         }
       })
 
-      channel.send(texts.MY_TRACKING.replace('%pokemon', userTrackings.join(', ')).replace('%trackingPage', `${configuration.homepage}/tracking/Discord/${message.channel.id}`))
+      message.channel.send(texts.MY_TRACKING.replace('%pokemon', userTrackings.join(', ')).replace('%trackingPage', `${configuration.homepage}/tracking/Discord/${message.channel.id}`))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] User is tracking following Pokemon: ' + userTrackings.join(', '))
         })
@@ -283,13 +261,11 @@ class DiscordAPI {
   }
 
   enableCustomFormat(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       firebase.users.data.discord[message.channel.id].customFormat = parseInt(match[1], 10) === 1 ? true : false
       firebase.db.ref('users').child('discord').set(firebase.users.data.discord)
 
-      channel.send(texts.ENABLE_CUSTOM_FORMAT.replace('%enable', match[1]))
+      message.channel.send(texts.ENABLE_CUSTOM_FORMAT.replace('%enable', match[1]))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] User set custom notification format: ' + match[1])
         })
@@ -298,13 +274,11 @@ class DiscordAPI {
   }
 
   setCustomTitle(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       firebase.users.data.discord[message.channel.id].customTitle = match[1]
       firebase.db.ref('users').child('discord').set(firebase.users.data.discord)
 
-      channel.send(texts.SET_CUSTOM_TITLE.replace('%title', match[1]))
+      message.channel.send(texts.SET_CUSTOM_TITLE.replace('%title', match[1]))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] User set custom title to: ' + match[1])
         })
@@ -313,13 +287,11 @@ class DiscordAPI {
   }
 
   setCustomBody(message, match) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
+    if (message.channel) {
       firebase.users.data.discord[message.channel.id].customBody = match[1]
       firebase.db.ref('users').child('discord').set(firebase.users.data.discord)
 
-      channel.send(texts.SET_CUSTOM_BODY.replace('%body', match[1]))
+      message.channel.send(texts.SET_CUSTOM_BODY.replace('%body', match[1]))
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] User set custom body to: ' + match[1])
         })
@@ -328,10 +300,8 @@ class DiscordAPI {
   }
 
   unknown(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
-      channel.send(texts.UNKNOWN_COMMAND)
+    if (message.channel) {
+      message.channel.send(texts.UNKNOWN_COMMAND)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Unrecognised command')
         })
@@ -340,10 +310,8 @@ class DiscordAPI {
   }
 
   notAuthorised(message) {
-    const channel = this.client.channels.get(message.channel.id)
-
-    if (channel) {
-      channel.send(texts.NOT_AUTHORISED)
+    if (message.channel) {
+      message.channel.send(texts.NOT_AUTHORISED)
         .then((response) => {
           logger.log('[Discord][DM][' + message.channel.id + '] Not authorised')
         })
@@ -383,7 +351,7 @@ class DiscordAPI {
     })
 
     this.client.on('message', (message) => {
-      if (message.author.bot) {
+      if (message.author.bot || message.content[0] !== '!') {
         return
       }
 
@@ -450,7 +418,11 @@ class DiscordAPI {
       return
     }
 
-    if (i && i > 5) {
+    if (!i) {
+      i = 0
+    }
+
+    if (i > 10) {
       logger.error('[Discord] Some problems with sending the message, giving up. Channel: ' + channelName)
     }
 
@@ -458,10 +430,12 @@ class DiscordAPI {
       logger.error('[Discord] Tried to send message before Discord was connected. Retrying...')
 
       setTimeout(() => {
-        this.sendMessage(message, channelName, type, i++)
-      }, 1000 * i)
+        this.sendMessage(message, channelName, type, ++i)
+      }, 1000 * (i + 1))
     } else {
-      this.send(message, channelName, type)
+      setImmediate(function (context, message, channelName, type) {
+        context.send(message, channelName, type)
+      }, this, message, channelName, type)
     }
   }
 
