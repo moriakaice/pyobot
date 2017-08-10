@@ -21,9 +21,12 @@ const between = (p1, p2) => {
 }
 
 const convert = (distance) => {
-  const value = parseFloat(distance.toString().replace(/[^0-9\.\-]/g, ''))
+  distance = distance.toString()
+  const value = parseFloat(distance.replace(/[^0-9\.\-]/g, ''))
 
-  if (distance.indexOf('km') !== -1) {
+  if (isNaN(value)) {
+    return 0
+  } else if (distance.indexOf('km') !== -1) {
     return value * 1000
   } else if (distance.indexOf('mi') !== -1) {
     return value * 1609.344
@@ -38,13 +41,23 @@ const closest = (point, groupOfPoints) => {
     distance: Number.MAX_SAFE_INTEGER
   }
 
-  groupOfPoints.forEach(groupPoint => {
+  groupOfPoints.some(groupPoint => {
+    if (Math.abs(point.lat - groupPoint.lat) > 0.1 || Math.abs(point.lng - groupPoint.lng) > 0.15) {
+      return false
+    }
+
     const distance = between(point, groupPoint)
 
     if (distance < closestPoint.distance) {
       closestPoint.point = groupPoint
       closestPoint.distance = distance
     }
+
+    if (distance <= 100) {
+      return true
+    }
+
+    return false
   })
 
   return closestPoint
