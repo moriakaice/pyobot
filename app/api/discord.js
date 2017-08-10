@@ -117,6 +117,12 @@ class DiscordAPI {
     if (message.channel) {
       match[1] = parseFloat(match[1])
       match[2] = parseFloat(match[2])
+      match[3] = match[3].toString()
+
+      if (isNaN(match[1]) || isNaN(match[2]) || !match[3]) {
+        this.unknown(message)
+        return
+      }
 
       if (!firebase.users.data.discord[message.channel.id].favoriteLocations) {
         firebase.users.data.discord[message.channel.id].favoriteLocations = {}
@@ -140,7 +146,7 @@ class DiscordAPI {
     if (message.channel) {
       if (!match[2]) {
         match[1] = match[1].toLowerCase()
-        if (firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]]) {
+        if (firebase.users.data.discord[message.channel.id].favoriteLocations && firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]] && firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]].lng && firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]].lat) {
           match[2] = firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]].lng
           match[1] = firebase.users.data.discord[message.channel.id].favoriteLocations[match[1]].lat
         } else {
@@ -151,6 +157,11 @@ class DiscordAPI {
 
       match[1] = parseFloat(match[1])
       match[2] = parseFloat(match[2])
+
+      if (isNaN(match[1]) || isNaN(match[2])) {
+        this.unknown(message)
+        return
+      }
 
       firebase.users.data.discord[message.channel.id].location = {
         lat: match[1],

@@ -119,6 +119,12 @@ class FacebookAPI {
   saveLocation(event, match) {
     match[1] = parseFloat(match[1])
     match[2] = parseFloat(match[2])
+    match[3] = match[3].toString()
+
+    if (isNaN(match[1]) || isNaN(match[2]) || !match[3]) {
+      this.unknown(event)
+      return
+    }
 
     if (!firebase.users.data.facebook[event.sender.id].favoriteLocations) {
       firebase.users.data.facebook[event.sender.id].favoriteLocations = {}
@@ -135,7 +141,7 @@ class FacebookAPI {
   setLocation(event, match) {
     if (!match[2]) {
       match[1] = match[1].toLowerCase()
-      if (firebase.users.data.facebook[event.sender.id].favoriteLocations[match[1]]) {
+      if (firebase.users.data.facebook[event.sender.id].favoriteLocations && firebase.users.data.facebook[event.sender.id].favoriteLocations[match[1]] && firebase.users.data.facebook[event.sender.id].favoriteLocations[match[1]].lng && firebase.users.data.facebook[event.sender.id].favoriteLocations[match[1]].lat) {
         match[2] = firebase.users.data.facebook[event.sender.id].favoriteLocations[match[1]].lng
         match[1] = firebase.users.data.facebook[event.sender.id].favoriteLocations[match[1]].lat
       } else {
@@ -146,6 +152,11 @@ class FacebookAPI {
 
     match[1] = parseFloat(match[1])
     match[2] = parseFloat(match[2])
+
+    if (isNaN(match[1]) || isNaN(match[2])) {
+      this.unknown(event)
+      return
+    }
 
     firebase.users.data.facebook[event.sender.id].location = {
       lat: match[1],
