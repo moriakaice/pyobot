@@ -14,6 +14,10 @@ module.exports = {
 
         return resolve(request
           .get(url)
+          .timeout({
+            response: 5000,  // Wait 5 seconds for the server to start sending,
+            deadline: 60000, // but allow 1 minute for the file to finish loading.
+          })
           .set('user-agent', configuration.browser)
           .catch((error) => {
             logger.error('Error obtaining postcode from Postcodes.io', url, error)

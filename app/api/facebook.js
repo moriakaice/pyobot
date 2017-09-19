@@ -321,6 +321,10 @@ class FacebookAPI {
 
     const facebookCall = request
       .post('https://graph.facebook.com/v2.9/me/messages?access_token=' + configuration.keys.facebook)
+      .timeout({
+        response: 5000,  // Wait 5 seconds for the server to start sending,
+        deadline: 60000, // but allow 1 minute for the file to finish loading.
+      })
       .set('content-type', 'application/json')
       .send(facebookMessage)
       .then((response) => {
@@ -412,54 +416,6 @@ class FacebookAPI {
 
     return customBody
   }
-
-  // createRichEmbed(pokemon) {
-  //   if (!pokemon) {
-  //     return undefined
-  //   }
-
-  //   const description = []
-
-  //   description.push(`TL: ${pokemon.remainingTime} (till ${pokemon.expiryTime})`)
-
-  //   if (pokemon.closestStation) {
-  //     description.push('STN: ' + pokemon.closestStation.point.name)
-  //   }
-
-  //   if (pokemon.move1 || pokemon.move2) {
-  //     description.push(`${pokemon.move1}/${pokemon.move2}`)
-  //   }
-
-  //   if (pokemon.ivPercent) {
-  //     description.push(`${pokemon.attack}/${pokemon.defence}/${pokemon.stamina}`)
-  //   }
-
-  //   if (pokemon.gender) {
-  //     description.push(pokemon.gender)
-  //   }
-
-  //   return {
-  //     'type': 'template',
-  //     'payload': {
-  //       'template_type': 'generic',
-  //       'elements': [
-  //         {
-  //           'title': pokemon.niceName + ' ' + pokemon.ivPercent + '/' + pokemon.cp + ' CP | ' + pokemon.location,
-  //           'image_url': pokemon.locationMapImage,
-  //           'subtitle': description.join(' | '),
-  //           'buttons': [
-  //             {
-  //               "type": "web_url",
-  //               "url": pokemon.locationMapUrl,
-  //               "title": "Open map",
-  //               "webview_height_ratio": "full"
-  //             }
-  //           ]
-  //         }
-  //       ]
-  //     }
-  //   }
-  // }
 }
 
 const facebookAPI = new FacebookAPI()
