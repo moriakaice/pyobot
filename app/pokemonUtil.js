@@ -39,7 +39,7 @@ function getECpM(level) {
 }
 
 function getPokemonLevel(cp, baseADS, IVs) {
-  if (cp <= 0 || IVs[0] < 0 || IVs[1] < 0 || IVs[2] < 0) {
+  if (cp <= 0 || IVs.attack < 0 || IVs.defense < 0 || IVs.stamina < 0) {
     return -1
   }
 
@@ -49,8 +49,7 @@ function getPokemonLevel(cp, baseADS, IVs) {
 
   for (let level = 1; level <= 30; level++) {
     const ECpM = getECpM(level - 1)
-    if (cp && cp === Math.floor((baseADS[0] + IVs[0]) * Math.pow(baseADS[1] + IVs[1], 0.5) *
-      Math.pow(baseADS[2] + IVs[2], 0.5) * Math.pow(ECpM, 2) / 10)) {
+    if (cp && cp === Math.floor((baseADS.baseAttack + IVs.attack) * Math.pow(baseADS.baseDefense + IVs.defense, 0.5) * Math.pow(baseADS.baseStamina + IVs.stamina, 0.5) * Math.pow(ECpM, 2) / 10)) {
       return level
     }
   }
@@ -65,13 +64,13 @@ const pokemonUtil = {
         pokemon.id = parseInt(pokemon.pokemon_id, 10)
         pokemon.despawn = parseInt(pokemon.despawn, 10)
         pokemon.form = parseInt(pokemon.form, 10)
-        pokemon.name = dicts.pokeDict[pokemon.pokemon_id]
+        pokemon.name = dicts.pokeDict[pokemon.pokemon_id].niceName
         pokemon.cp = parseInt(pokemon.cp, 10)
         pokemon.cp = pokemon.cp >= 0 ? pokemon.cp : -1
         pokemon.attack = parseInt(pokemon.attack, 10)
         pokemon.defence = parseInt(pokemon.defence, 10)
         pokemon.stamina = parseInt(pokemon.stamina, 10)
-        pokemon.level = getPokemonLevel(pokemon.cp, dicts.baseStatsDict[pokemon.id], [pokemon.attack, pokemon.defence, pokemon.stamina])
+        pokemon.level = getPokemonLevel(pokemon.cp, dicts.pokeDict[pokemon.id].stats, { attack: pokemon.attack, defense: pokemon.defence, stamina: pokemon.stamina })
         pokemon.move1 = parseInt(pokemon.move1, 10)
         pokemon.move1 = pokemon.move1 > 0 ? dicts.movesDict[pokemon.move1] : ''
         pokemon.move2 = parseInt(pokemon.move2, 10)
@@ -110,6 +109,13 @@ const pokemonUtil = {
         processing = true
 
         const pokemon = queue.shift()
+
+        if (pokemon.despawn < (new Date().getTime() / 1000)) {
+          logger.error('EXPIRED POKEMON IN QUEUE')
+          processing = false
+          setTimeout(pokemonUtil.parseQueue, 100)
+          return
+        }
 
         osm.getPostcode(pokemon)
           .then((pokemon) => {
@@ -201,7 +207,6 @@ const pokemonUtil = {
             processing = false
             setTimeout(pokemonUtil.parseQueue, 1100)
           })
-
       } else {
         setTimeout(pokemonUtil.parseQueue, 100)
       }

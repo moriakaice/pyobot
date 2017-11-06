@@ -29,8 +29,12 @@ const texts = {
 
 const convertNameOrIdToPokemonId = function convertNameOrIdToPokemonId(value) {
   let id = parseInt(value, 10)
-  if (isNaN(id) && dicts.pokeReverseDict[value.toLowerCase()]) {
-    id = parseInt(dicts.pokeReverseDict[value.toLowerCase()], 10)
+  if (isNaN(id)) {
+    id = dicts.pokeReverseDict[value.toLowerCase().replace(/'/g, '').replace(/\./g, '').replace(/\s+/g, '_')]
+
+    if (!id) {
+      return false
+    }
   }
 
   return !isNaN(id) && dicts.pokeDict[id] ? id : false
@@ -188,7 +192,7 @@ class FacebookAPI {
       firebase.trackings.data[match[1]]['facebook*' + event.sender.id] = match[2]
       firebase.db.ref('trackings').child(match[1]).set(firebase.trackings.data[match[1]])
 
-      this.sendMessage({ text: texts.STARTED_TRACKING.replace('%pokemon', dicts.pokeDict[match[1]]).replace('%distance', match[2]) }, event.sender.id)
+      this.sendMessage({ text: texts.STARTED_TRACKING.replace('%pokemon', dicts.pokeDict[match[1]].niceName).replace('%distance', match[2]) }, event.sender.id)
     }
 
   }
@@ -217,7 +221,7 @@ class FacebookAPI {
     Object.keys(firebase.trackings.data).forEach((pokemonId) => {
       pokemonId = convertNameOrIdToPokemonId(pokemonId)
       if (pokemonId && firebase.trackings.data[pokemonId]['facebook*' + event.sender.id]) {
-        userTrackings.push(`${dicts.pokeDict[pokemonId]} [${pokemonId}] - ${firebase.trackings.data[pokemonId]['facebook*' + event.sender.id]}`)
+        userTrackings.push(`${dicts.pokeDict[pokemonId].niceName} [${pokemonId}] - ${firebase.trackings.data[pokemonId]['facebook*' + event.sender.id]}`)
       }
     })
 
@@ -228,7 +232,7 @@ class FacebookAPI {
     const trackedPokemon = []
     configuration.tracked.forEach((id) => {
       if (dicts.pokeDict[id]) {
-        trackedPokemon.push(dicts.pokeDict[id])
+        trackedPokemon.push(dicts.pokeDict[id].niceName)
       }
     })
 

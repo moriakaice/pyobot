@@ -29,8 +29,12 @@ const texts = {
 
 const convertNameOrIdToPokemonId = function convertNameOrIdToPokemonId(value) {
   let id = parseInt(value, 10)
-  if (isNaN(id) && dicts.pokeReverseDict[value.toLowerCase()]) {
-    id = parseInt(dicts.pokeReverseDict[value.toLowerCase()], 10)
+  if (isNaN(id)) {
+    id = dicts.pokeReverseDict[value.toLowerCase().replace(/'/g, '').replace(/\./g, '').replace(/\s+/g, '_')]
+
+    if (!id) {
+      return false
+    }
   }
 
   return !isNaN(id) && dicts.pokeDict[id] ? id : false
@@ -207,9 +211,9 @@ class DiscordAPI {
         firebase.trackings.data[match[1]]['discord*' + message.channel.id] = match[2]
         firebase.db.ref('trackings').child(match[1]).set(firebase.trackings.data[match[1]])
 
-        message.channel.send(texts.STARTED_TRACKING.replace('%pokemon', dicts.pokeDict[match[1]]).replace('%distance', match[2]))
+        message.channel.send(texts.STARTED_TRACKING.replace('%pokemon', dicts.pokeDict[match[1]].niceName).replace('%distance', match[2]))
           .then((response) => {
-            logger.log('[Discord][DM][' + message.channel.id + '] Started tracking ' + dicts.pokeDict[match[1]] + ' on distance: ' + match[2])
+            logger.log('[Discord][DM][' + message.channel.id + '] Started tracking ' + dicts.pokeDict[match[1]].niceName + ' on distance: ' + match[2])
           })
           .catch(logger.error)
       }
@@ -248,7 +252,7 @@ class DiscordAPI {
       Object.keys(firebase.trackings.data).forEach((pokemonId) => {
         pokemonId = convertNameOrIdToPokemonId(pokemonId)
         if (pokemonId && firebase.trackings.data[pokemonId]['discord*' + message.channel.id]) {
-          userTrackings.push(`${dicts.pokeDict[pokemonId]} [${pokemonId}] - ${firebase.trackings.data[pokemonId]['discord*' + message.channel.id]}`)
+          userTrackings.push(`${dicts.pokeDict[pokemonId].niceName} [${pokemonId}] - ${firebase.trackings.data[pokemonId]['discord*' + message.channel.id]}`)
         }
       })
 
@@ -264,7 +268,7 @@ class DiscordAPI {
     const trackedPokemon = []
     configuration.tracked.forEach((id) => {
       if (dicts.pokeDict[id]) {
-        trackedPokemon.push(dicts.pokeDict[id])
+        trackedPokemon.push(dicts.pokeDict[id].niceName)
       }
     })
 

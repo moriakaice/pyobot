@@ -62,7 +62,7 @@ const server = {
       Object.keys(firebase.trackings.data).forEach((pokemonId) => {
         if (firebase.trackings.data[pokemonId][req.params.api.toLowerCase() + '*' + req.params.id]) {
           tracked[pokemonId] = {
-            name: dicts.pokeDict[pokemonId],
+            name: dicts.pokeDict[pokemonId].niceName,
             distance: firebase.trackings.data[pokemonId][req.params.api.toLowerCase() + '*' + req.params.id]
           }
         }
@@ -101,7 +101,7 @@ const server = {
     app.get('/tracking', function (req, res) {
       const trackedPokemon = []
       configuration.tracked.forEach((id) => {
-        trackedPokemon.push(dicts.pokeDict[id])
+        trackedPokemon.push(dicts.pokeDict[id].niceName)
       })
 
       res.json(trackedPokemon)

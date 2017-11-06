@@ -9,10 +9,10 @@ if (configuration.firebase.databaseURL) {
 
   if (configuration.map) {
 		const dicts = require('./dicts.js')
-		
+
 		const trackedPokemon = []
 		configuration.tracked.forEach((id) => {
-			trackedPokemon.push(dicts.pokeDict[id])
+			trackedPokemon.push(dicts.pokeDict[id].niceName)
 		})
 
 		logger.log('Starting tracking for:', trackedPokemon.join(', '))
