@@ -16,7 +16,6 @@ const dlrStations = require('../db/dlr-stations.json')
 const railwayStations = require('../db/railway-stations.json')
 
 const historical = {}
-const targetIVs = {}
 
 const queue = []
 let processing = false
@@ -218,15 +217,6 @@ const pokemonUtil = {
       db.persistence.compactDatafile()
       setTimeout(pokemonUtil.cleanOldPokemon, 60 * 60 * 1000)
     })
-  },
-  generateTargetIVs: () => {
-    for (let i = 1; i < 252; i++) {
-      if (configuration.allTarget[i]) {
-        targetIVs[i] = configuration.allIV[i] ? configuration.allIV[i] : -48
-      } else {
-        targetIVs[i] = configuration.highIV[i] ? configuration.highIV[i] : 0
-      }
-    }
   },
 }
 
