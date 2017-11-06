@@ -538,7 +538,7 @@ class DiscordAPI {
           height: 400
         },
         thumbnail: {
-          url: 'https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/' + pokemon.id + '.png'
+          url: 'https://pkmref.com/images/set_1/' + pokemon.id + '.png'
         },
         url: pokemon.locationMapUrl.replace('https://', 'http://')
       })
@@ -580,7 +580,7 @@ class DiscordAPI {
           height: 400
         },
         thumbnail: {
-          url: 'https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/' + pokemon.id + '.png'
+          url: 'https://pkmref.com/images/set_1/' + pokemon.id + '.png'
         },
         url: pokemon.locationMapUrl.replace('https://', 'http://')
       })
