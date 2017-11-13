@@ -9,6 +9,7 @@ const discordAPI = require('./api/discord.js')
 const facebookAPI = require('./api/facebook.js')
 const firebase = require('./api/firebase.js')
 const distance = require('./distance.js')
+const abyo = require('../abyo/abyo.js')
 const db = new Datastore({ filename: __dirname + '/../db/pokemon.db', autoload: true })
 
 const tubeStations = require('../db/tube-stations.json')
@@ -54,6 +55,103 @@ function getPokemonLevel(cp, baseADS, IVs) {
   }
 
   return -1
+}
+
+function processPokemon(pokemon) {
+  pokemon.niceName = (pokemon.id == 201 && pokemon.form != 0) ? pokemon.name + ' ' + String.fromCharCode(pokemon.form + 64) : pokemon.name
+  if (pokemon.gender > 0 && pokemon.gender < 3) {
+    pokemon.gender = pokemon.gender === 1 ? '♂' : '♀'
+  } else {
+    pokemon.gender = undefined
+  }
+  pokemon.remainingTime = time.timeToString(time.remainingTime(pokemon.despawn))
+  pokemon.expiryTime = time.getTime(pokemon.despawn * 1000)
+
+  pokemon.locationMapImage = configuration.keys.google ? 'https://maps.googleapis.com/maps/api/staticmap?markers=' + pokemon.lat + ',' + pokemon.lng + '&zoom=15&size=600x400&sensor=false&key=' + configuration.keys.google : undefined
+  pokemon.locationMapUrl = `https://www.google.com/maps/place/${pokemon.lat},${pokemon.lng}`
+
+  if (!configuration.abyo) {
+    pokemon.postcode = pokemon.postcode ? pokemon.postcode : ''
+    pokemon.location = pokemon.suburb ? pokemon.postcode + ' ' + pokemon.suburb : pokemon.postcode
+    // Get closest station
+    let closestStation = distance.closest(pokemon, tubeStations)
+    closestStation.type = 'Tube'
+
+    if (closestStation.distance > 500) {
+      closestStation = distance.closest(pokemon, dlrStations)
+      closestStation.type = 'DLR'
+
+      if (closestStation.distance > 500) {
+        closestStation = distance.closest(pokemon, railwayStations)
+        closestStation.type = 'Railway'
+      }
+    }
+
+    pokemon.closestStation = closestStation.distance <= 500 ? closestStation : undefined
+  } else {
+    pokemon.closestStation = abyo.gSt(pokemon.lat, pokemon.lng)
+    pokemon.closestStation = pokemon.closestStation ? pokemon.closestStation : undefined
+
+    pokemon.suburb = abyo.gSu(pokemon.lat, pokemon.lng)
+    pokemon.suburb = pokemon.suburb ? pokemon.suburb : undefined
+
+    pokemon.postcode = abyo.gP(pokemon.lat, pokemon.lng)
+    pokemon.postcode = pokemon.postcode ? pokemon.postcode : undefined
+
+    pokemon.borough = abyo.gB(pokemon.lat, pokemon.lng)
+    pokemon.borough = pokemon.borough ? pokemon.borough : undefined
+
+    pokemon.location = pokemon.suburb ? pokemon.postcode + ' ' + pokemon.suburb : pokemon.postcode
+  }
+
+  if (configuration.notifications.discord) {
+    if (configuration.filters[pokemon.id]) {
+      configuration.filters[pokemon.id].forEach(filter => {
+        if (typeof filter.iv === 'undefined') {
+          discordAPI.sendMessage({ pokemon: pokemon }, filter.channel, '[Public]')
+        } else if (pokemon.iv - 45 >= filter.iv) {
+          discordAPI.sendMessage({ pokemon: pokemon }, filter.channel, '[Public]')
+        }
+      })
+    }
+
+    if ((configuration.highIV[pokemon.id] && pokemon.iv - 45 >= configuration.highIV[pokemon.id]) || (typeof configuration.highIV[pokemon.id] === 'undefined' && pokemon.iv - 45 >= 0)) {
+      discordAPI.sendMessage({ pokemon: pokemon }, configuration.highchannel, '[Public]')
+    }
+
+    if (configuration.highCP && configuration.highCP.minCP && pokemon.cp >= configuration.highCP.minCP) {
+      discordAPI.sendMessage({ pokemon: pokemon }, configuration.highCP.channel, '[Public]')
+    }
+
+    if (configuration.highLevel && configuration.highLevel.minLevel && pokemon.level >= configuration.highLevel.minLevel) {
+      discordAPI.sendMessage({ pokemon: pokemon }, configuration.highLevel.channel, '[Public]')
+    }
+  }
+
+  if (firebase.trackings.data[pokemon.id]) {
+    Object.keys(firebase.trackings.data[pokemon.id]).forEach((key) => {
+      const [api, id] = key.split('*')
+      const distanceValue = firebase.trackings.data[pokemon.id][key]
+
+      if (firebase.users.data[api] && firebase.users.data[api][id] && firebase.users.data[api][id].active) {
+        if (distanceValue === 'all' ||
+          (firebase.users.data[api] && firebase.users.data[api][id] && firebase.users.data[api][id].location && distance.between(firebase.users.data[api][id].location, { lat: pokemon.lat, lng: pokemon.lng }) <= distance.convert(distanceValue))) {
+          if (firebase.users.data[api][id].location) {
+            pokemon.distance = Math.round(distance.between(firebase.users.data[api][id].location, { lat: pokemon.lat, lng: pokemon.lng }) / 10) / 100
+          }
+
+          if (configuration.notifications.discord && api === 'discord') {
+            discordAPI.sendMessage({ pokemon: pokemon }, id, '[DM]')
+          } else if (configuration.notifications.facebook && api === 'facebook') {
+            facebookAPI.sendMessage({ pokemon: pokemon }, id)
+          }
+        }
+      }
+    })
+  }
+
+  processing = false
+  setTimeout(pokemonUtil.parseQueue, 1100)
 }
 
 const pokemonUtil = {
@@ -116,96 +214,23 @@ const pokemonUtil = {
           return
         }
 
-        osm.getPostcode(pokemon)
-          .then((pokemon) => {
-            return postcodesIo.getPostcode(pokemon)
-          })
-          .then((pokemon) => {
-            pokemon.niceName = (pokemon.id == 201 && pokemon.form != 0) ? pokemon.name + ' ' + String.fromCharCode(pokemon.form + 64) : pokemon.name
-            if (pokemon.gender > 0 && pokemon.gender < 3) {
-              pokemon.gender = pokemon.gender === 1 ? '♂' : '♀'
-            } else {
-              pokemon.gender = undefined
-            }
-            pokemon.remainingTime = time.timeToString(time.remainingTime(pokemon.despawn))
-            pokemon.expiryTime = time.getTime(pokemon.despawn * 1000)
-            pokemon.postcode = pokemon.postcode ? pokemon.postcode : ''
-            pokemon.location = pokemon.suburb ? pokemon.postcode + ' ' + pokemon.suburb : pokemon.postcode
-
-            pokemon.locationMapImage = configuration.keys.google ? 'https://maps.googleapis.com/maps/api/staticmap?markers=' + pokemon.lat + ',' + pokemon.lng + '&zoom=15&size=600x400&sensor=false&key=' + configuration.keys.google : undefined
-            pokemon.locationMapUrl = `https://www.google.com/maps/place/${pokemon.lat},${pokemon.lng}`
-
-            // Get closest station
-            let closestStation = distance.closest(pokemon, tubeStations)
-            closestStation.type = 'Tube'
-
-            if (closestStation.distance > 500) {
-              closestStation = distance.closest(pokemon, dlrStations)
-              closestStation.type = 'DLR'
-
-              if (closestStation.distance > 500) {
-                closestStation = distance.closest(pokemon, railwayStations)
-                closestStation.type = 'Railway'
-              }
-            }
-
-            pokemon.closestStation = closestStation.distance <= 500 ? closestStation : undefined
-
-            if (configuration.notifications.discord) {
-              if (configuration.filters[pokemon.id]) {
-                configuration.filters[pokemon.id].forEach(filter => {
-                  if (typeof filter.iv === 'undefined') {
-                    discordAPI.sendMessage({ pokemon: pokemon }, filter.channel, '[Public]')
-                  } else if (pokemon.iv - 45 >= filter.iv) {
-                    discordAPI.sendMessage({ pokemon: pokemon }, filter.channel, '[Public]')
-                  }
-                })
-              }
-
-              if ((configuration.highIV[pokemon.id] && pokemon.iv - 45 >= configuration.highIV[pokemon.id]) || (typeof configuration.highIV[pokemon.id] === 'undefined' && pokemon.iv - 45 >= 0)) {
-                discordAPI.sendMessage({ pokemon: pokemon }, configuration.highchannel, '[Public]')
-              }
-
-              if (configuration.highCP && configuration.highCP.minCP && pokemon.cp >= configuration.highCP.minCP) {
-                discordAPI.sendMessage({ pokemon: pokemon }, configuration.highCP.channel, '[Public]')
-              }
-
-              if (configuration.highLevel && configuration.highLevel.minLevel && pokemon.level >= configuration.highLevel.minLevel) {
-                discordAPI.sendMessage({ pokemon: pokemon }, configuration.highLevel.channel, '[Public]')
-              }
-            }
-
-            if (firebase.trackings.data[pokemon.id]) {
-              Object.keys(firebase.trackings.data[pokemon.id]).forEach((key) => {
-                const [api, id] = key.split('*')
-                const distanceValue = firebase.trackings.data[pokemon.id][key]
-
-                if (firebase.users.data[api] && firebase.users.data[api][id] && firebase.users.data[api][id].active) {
-                  if (distanceValue === 'all' ||
-                    (firebase.users.data[api] && firebase.users.data[api][id] && firebase.users.data[api][id].location && distance.between(firebase.users.data[api][id].location, { lat: pokemon.lat, lng: pokemon.lng }) <= distance.convert(distanceValue))) {
-                    if (firebase.users.data[api][id].location) {
-                      pokemon.distance = Math.round(distance.between(firebase.users.data[api][id].location, { lat: pokemon.lat, lng: pokemon.lng }) / 10) / 100
-                    }
-
-                    if (configuration.notifications.discord && api === 'discord') {
-                      discordAPI.sendMessage({ pokemon: pokemon }, id, '[DM]')
-                    } else if (configuration.notifications.facebook && api === 'facebook') {
-                      facebookAPI.sendMessage({ pokemon: pokemon }, id)
-                    }
-                  }
-                }
-              })
-            }
-
-            processing = false
-            setTimeout(pokemonUtil.parseQueue, 1100)
-          })
-          .catch((error) => {
-            logger.error('QUEUE PROCESSING FAILED', error)
-            queue.unshift(pokemon)
-            processing = false
-            setTimeout(pokemonUtil.parseQueue, 1100)
-          })
+        if (!configuration.abyo) {
+          osm.getPostcode(pokemon)
+            .then((pokemon) => {
+              return postcodesIo.getPostcode(pokemon)
+            })
+            .then((pokemon) => {
+              processPokemon(pokemon)
+            })
+            .catch((error) => {
+              logger.error('QUEUE PROCESSING FAILED', error)
+              queue.unshift(pokemon)
+              processing = false
+              setTimeout(pokemonUtil.parseQueue, 1100)
+            })
+        } else {
+          processPokemon(pokemon)
+        }
       } else {
         setTimeout(pokemonUtil.parseQueue, 100)
       }

@@ -1,0 +1,7785 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@id": "node/196021",
+				"highway": "traffic_signals",
+				"is_in": "Barnet, London, England, United Kingdom",
+				"name": "Whetstone",
+				"place": "suburb",
+				"wikidata": "Q150188",
+				"wikipedia": "en:Whetstone, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1748844, 51.6301762]
+			},
+			"id": "node/196021"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/196694",
+				"is_in": "Barnet, London, England, United Kingdom",
+				"name": "Temple Fortune",
+				"name:hi": "टेम्पल फ़ॉर्ट्यून",
+				"place": "suburb",
+				"wikidata": "Q149673",
+				"wikipedia": "en:Temple Fortune"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1990538, 51.5819126]
+			},
+			"id": "node/196694"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/200088",
+				"is_in": "Barnet, London, England, United Kingdom",
+				"name": "Friern Barnet",
+				"place": "suburb",
+				"wikidata": "Q149662",
+				"wikipedia": "en:Friern Barnet"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.158614, 51.6128484]
+			},
+			"id": "node/200088"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/201212",
+				"is_in": "Haringey, London",
+				"name": "Muswell Hill",
+				"place": "suburb",
+				"wikidata": "Q1432670",
+				"wikipedia": "en:Muswell Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1420768, 51.5910395]
+			},
+			"id": "node/201212"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/222466",
+				"is_in": "Barnet, London, England, UK",
+				"name": "Hendon",
+				"place": "suburb",
+				"wikidata": "Q149787",
+				"wikipedia": "en:Hendon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.22162, 51.5897442]
+			},
+			"id": "node/222466"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/279640",
+				"is_in": "Barnet, London, UK",
+				"name": "Edgware",
+				"note": "Imperial Studio, a wedding photography and videography firm in Australia, is dedicated to providing complete solutions for your wedding. It is not just about clicking the buttons;we look at every inch of the surroundings, lighting, and colour.",
+				"place": "town",
+				"wikidata": "Q149651",
+				"wikipedia": "en:Edgware"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.279305, 51.6107677]
+			},
+			"id": "node/279640"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/720187",
+				"name": "Bushey",
+				"place": "suburb",
+				"wikidata": "Q10996"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3622403, 51.6441737]
+			},
+			"id": "node/720187"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/12631660",
+				"created_by": "Potlatch 0.4b",
+				"is_in": "Kent, England",
+				"name": "Westerham",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0706133, 51.2671155]
+			},
+			"id": "node/12631660"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/12981759",
+				"is_in": "Surrey,England,United Kingdom",
+				"name": "Woking",
+				"phonetic:en": "ˈwoʊkɪŋ",
+				"place": "town",
+				"wikidata": "Q646225",
+				"wikipedia": "en:Woking"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5564726, 51.3201891]
+			},
+			"id": "node/12981759"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/13878144",
+				"is_in": "Lewisham, London, UK",
+				"name": "Catford",
+				"note": "Catford has a town hall the principal seat of local govt",
+				"place": "town",
+				"wikidata": "Q305029",
+				"wikipedia": "en:Catford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0197534, 51.4453215]
+			},
+			"id": "node/13878144"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/14698913",
+				"is_in": "England, Surrey",
+				"name": "Leatherhead",
+				"place": "town",
+				"wikidata": "Q1810766",
+				"wikipedia": "en:Leatherhead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3293689, 51.2955038]
+			},
+			"id": "node/14698913"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/16231633",
+				"is_in:district": "Richmond upon Thames",
+				"name": "Hampton Hill",
+				"place": "suburb",
+				"wikidata": "Q5646227"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.355081, 51.4278442]
+			},
+			"id": "node/16231633"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/16486527",
+				"is_in": "Richmond upon Thames, London, UK",
+				"is_in:district": "Richmond upon Thames",
+				"name": "Teddington",
+				"place": "town",
+				"source:name": "local knowledge",
+				"wikidata": "Q2281721",
+				"wikipedia": "en:Teddington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.333653, 51.4277844]
+			},
+			"id": "node/16486527"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/17061656",
+				"is_in": "Hounslow, London, UK",
+				"name": "Bedfont",
+				"place": "suburb",
+				"wikidata": "Q4879087"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4348611831665039, 51.450984920901824]
+			},
+			"id": "node/17061656"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/18083845",
+				"is_in": "Wandsworth, London, UK",
+				"is_in:district": "Wandsworth",
+				"name": "Putney",
+				"place": "town",
+				"wikidata": "Q2465220",
+				"wikipedia": "en:Putney"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2167462, 51.4625524]
+			},
+			"id": "node/18083845"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/18865696",
+				"is_in": "Enfield, London, UK",
+				"name": "Enfield",
+				"place": "town",
+				"wikidata": "Q544939",
+				"wikipedia": "en:Enfield Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0832141, 51.6517122]
+			},
+			"id": "node/18865696"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/20962674",
+				"is_in": "Hammersmith and Fulham, London, UK",
+				"is_in:district": "Hammersmith and Fulham",
+				"name": "Hammersmith",
+				"name:ru": "Хаммерсмит",
+				"place": "town",
+				"wikidata": "Q277162",
+				"wikipedia": "en:Hammersmith"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2236401, 51.4920377]
+			},
+			"id": "node/20962674"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/20962675",
+				"is_in": "Richmond, London, UK",
+				"is_in:district": "Richmond upon Thames",
+				"name": "Barnes",
+				"place": "suburb",
+				"wikidata": "Q668140",
+				"wikipedia": "en:Barnes, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2387441, 51.4718962]
+			},
+			"id": "node/20962675"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/20992523",
+				"name": "Watford",
+				"place": "town",
+				"population": "120000",
+				"source": "NPE",
+				"wikidata": "Q2598",
+				"wikipedia": "en:Watford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3957425, 51.6553875]
+			},
+			"id": "node/20992523"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/20992546",
+				"name": "Kings Langley",
+				"place": "town",
+				"source": "NPE",
+				"wikidata": "Q19807",
+				"wikipedia": "en:Kings Langley"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4503027, 51.7135573]
+			},
+			"id": "node/20992546"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21042294",
+				"is_in": "Westminster, London, UK",
+				"name": "Pimlico",
+				"place": "suburb",
+				"wikidata": "Q123306",
+				"wikipedia": "en:Pimlico"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1398817, 51.4889993]
+			},
+			"id": "node/21042294"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21099164",
+				"is_in": "Richmond upon Thames, London, UK",
+				"is_in:district": "Richmond upon Thames",
+				"name": "Richmond",
+				"name:ru": "Ричмонд",
+				"note": "it appears \"Richmond upon Thames\" just refers to the borough and was coined in the 1960s",
+				"place": "town",
+				"source:name": "local knowledge",
+				"wikidata": "Q2500974",
+				"wikipedia": "en:Richmond, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3032767, 51.4613531]
+			},
+			"id": "node/21099164"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21099165",
+				"is_in": "Richmond upon Thames, London, UK",
+				"is_in:district": "Richmond upon Thames",
+				"name": "Kew",
+				"place": "suburb",
+				"source:name": "local knowledge",
+				"wikidata": "Q1740301",
+				"wikipedia": "en:Kew"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2881336212158203, 51.4772668537707]
+			},
+			"id": "node/21099165"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21099166",
+				"is_in": "Richmond upon Thames, London, UK",
+				"is_in:district": "Richmond upon Thames",
+				"name": "Twickenham",
+				"name:en": "Twickenham",
+				"name:ru": "Туикнем",
+				"place": "suburb",
+				"source:name": "local knowledge",
+				"wikidata": "Q1143278",
+				"wikipedia": "en:Twickenham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3283389, 51.4467941]
+			},
+			"id": "node/21099166"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21122971",
+				"name": "Gerrards Cross",
+				"place": "town",
+				"source": "NPE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5537126, 51.5878131]
+			},
+			"id": "node/21122971"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21139877",
+				"created_by": "Potlatch 0.6a",
+				"name": "Rickmansworth",
+				"place": "town",
+				"source": "NPE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4718406, 51.6390009]
+			},
+			"id": "node/21139877"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21262496",
+				"admin_level": "8",
+				"is_in": "Croydon, London, UK",
+				"name": "Croydon",
+				"place": "town",
+				"population": "173314",
+				"population_borough": "330587",
+				"source:url": "http://en.wikipedia.org/wiki/City_status_in_the_United_Kingdom#List_of_officially_designated_cities",
+				"wikidata": "Q2213391",
+				"wikipedia": "en:Croydon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0995635986328125, 51.37397714612688]
+			},
+			"id": "node/21262496"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21262497",
+				"is_in": "Bromley, London",
+				"name": "Crystal Palace",
+				"place": "suburb",
+				"wikidata": "Q122909",
+				"wikipedia": "en:Crystal Palace, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0711328, 51.4193664]
+			},
+			"id": "node/21262497"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21315206",
+				"is_in": "Wandsworth, London, UK",
+				"name": "Wandsworth",
+				"place": "town",
+				"wikidata": "Q2166359",
+				"wikipedia": "en:Wandsworth"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1932607, 51.4570271]
+			},
+			"id": "node/21315206"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21329597",
+				"is_in": "Merton, London, UK",
+				"name": "South Wimbledon",
+				"name:en": "South Wimbledon",
+				"name:he": "וימבלדון",
+				"name:ru": "Уимблдон",
+				"place": "suburb",
+				"wikidata": "Q2232191",
+				"wikipedia": "en:South Wimbledon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1990563, 51.4191783]
+			},
+			"id": "node/21329597"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21414870",
+				"created_by": "Potlatch 0.5d",
+				"name": "Loughton",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0551751, 51.6456263]
+			},
+			"id": "node/21414870"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21415113",
+				"is_in": "Waltham Forest, London, UK",
+				"name": "Chingford",
+				"place": "suburb",
+				"wikidata": "Q3778007"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0039962, 51.630887]
+			},
+			"id": "node/21415113"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21434600",
+				"name": "Staines-upon-Thames",
+				"old_name": "Staines",
+				"place": "town",
+				"source:name": "local knowledge",
+				"wikidata": "Q285323",
+				"wikipedia": "en:Staines-upon-Thames"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.511044, 51.434012]
+			},
+			"id": "node/21434600"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21521237",
+				"is_in": "Lambeth, London, UK",
+				"name": "Brixton",
+				"place": "town",
+				"wikidata": "Q146690",
+				"wikipedia": "en:Brixton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.11527061462402344, 51.46079896968141]
+			},
+			"id": "node/21521237"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21521238",
+				"is_in": "Lambeth, London, UK",
+				"name": "Streatham",
+				"place": "town",
+				"population": "58,055",
+				"wikidata": "Q146667",
+				"wikipedia": "en:Streatham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1311105, 51.429769]
+			},
+			"id": "node/21521238"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/21662002",
+				"is_in": "Hammersmith and Fulham, London, UK",
+				"name": "Shepherd's Bush",
+				"place": "town",
+				"population": "39724",
+				"wikidata": "Q1026182",
+				"wikipedia": "en:Shepherds Bush"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2229007, 51.505314]
+			},
+			"id": "node/21662002"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/25921913",
+				"is_in": "Bexley, London",
+				"name": "Sidcup",
+				"place": "town",
+				"wikidata": "Q146705",
+				"wikipedia": "en:Sidcup"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.101044, 51.4264002]
+			},
+			"id": "node/25921913"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/25921914",
+				"is_in": "Greenwich, London, UK",
+				"name": "Eltham",
+				"place": "town",
+				"wikidata": "Q2057625",
+				"wikipedia": "en:Eltham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0541253, 51.4505687]
+			},
+			"id": "node/25921914"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/25921915",
+				"is_in": "Greenwich, London",
+				"name": "New Eltham",
+				"place": "suburb",
+				"wikidata": "Q146849",
+				"wikipedia": "en:New Eltham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0685289, 51.4362297]
+			},
+			"id": "node/25921915"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/25921916",
+				"name": "Mottingham",
+				"place": "suburb",
+				"wikidata": "Q122835",
+				"wikipedia": "en:Mottingham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.04703521728515625, 51.43434702768059]
+			},
+			"id": "node/25921916"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26049431",
+				"is_in": "Bromley, London, UK",
+				"is_in_postal": "Kent",
+				"name": "Bromley",
+				"name:ru": "Бромли",
+				"place": "town",
+				"population": "16826",
+				"wikidata": "Q122892",
+				"wikipedia": "en:Bromley"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0148142, 51.4028046]
+			},
+			"id": "node/26049431"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26422736",
+				"is_in": "Barking and Dagenham, London, Essex, England, UK",
+				"name": "Barking",
+				"place": "town",
+				"wikidata": "Q377720",
+				"wikipedia": "en:Barking"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0804245, 51.5389922]
+			},
+			"id": "node/26422736"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26472010",
+				"is_in": "Lewisham, London",
+				"name": "Bellingham",
+				"place": "suburb",
+				"wikidata": "Q2488252",
+				"wikipedia": "en:Bellingham, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0245145, 51.4310809]
+			},
+			"id": "node/26472010"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26472011",
+				"is_in": "Lewisham, London",
+				"name": "Hither Green",
+				"place": "suburb",
+				"wikidata": "Q2252580",
+				"wikipedia": "en:Hither Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0054183, 51.4502982]
+			},
+			"id": "node/26472011"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26472012",
+				"name": "Downham",
+				"place": "suburb",
+				"wikidata": "Q122529",
+				"wikipedia": "en:Downham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0064566, 51.426111]
+			},
+			"id": "node/26472012"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26472013",
+				"name": "Catford South",
+				"place": "suburb",
+				"wikidata": "Q305029"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0059785, 51.440517]
+			},
+			"id": "node/26472013"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26545978",
+				"is_in": "Southwark, London, UK",
+				"name": "Walworth",
+				"place": "suburb",
+				"postal_code": "SE17",
+				"wikidata": "Q1231883",
+				"wikipedia": "en:Walworth, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0906603, 51.4901142]
+			},
+			"id": "node/26545978"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26546003",
+				"is_in": "Southwark, London",
+				"name": "Elephant and Castle",
+				"place": "suburb",
+				"wikidata": "Q2716414",
+				"wikipedia": "en:Elephant and Castle"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1003287, 51.4952794]
+			},
+			"id": "node/26546003"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26562607",
+				"is_in": "Sutton, Greater London, UK",
+				"name": "Hackbridge",
+				"place": "suburb",
+				"wikidata": "Q5637199",
+				"wikipedia": "en:Hackbridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1567541, 51.3796135]
+			},
+			"id": "node/26562607"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26683163",
+				"is_in": "Essex, England, GB",
+				"is_in:continent": "Europe",
+				"is_in:country": "United Kingdom",
+				"is_in:country_code": "GB",
+				"is_in:county": "Essex",
+				"name": "South Ockendon",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2827942, 51.5093771]
+			},
+			"id": "node/26683163"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/26728131",
+				"is_in": "Grays, Thurrock, Essex, England, UK",
+				"name": "Grays",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.32581329345703125, 51.476785733667775]
+			},
+			"id": "node/26728131"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/26745366",
+				"is_in": "Westminster, London",
+				"name": "Mayfair",
+				"name:he": "מייפייר",
+				"name:ru": "Мейфэр",
+				"place": "suburb",
+				"wikidata": "Q124184",
+				"wikipedia": "en:Mayfair"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1472083, 51.5110777]
+			},
+			"id": "node/26745366"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/26745371",
+				"name": "Holborn",
+				"place": "suburb",
+				"wikidata": "Q16247922",
+				"wikipedia": "en:St Giles, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12018442153930664, 51.51736907046397]
+			},
+			"id": "node/26745371"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27364398",
+				"is_in": "Haringey, London",
+				"name": "Seven Sisters",
+				"place": "suburb",
+				"wikidata": "Q2639390",
+				"wikipedia": "en:Seven Sisters, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0756012, 51.5834664]
+			},
+			"id": "node/27364398"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27364686",
+				"is_in": "Haringey, London",
+				"name": "Tottenham",
+				"place": "suburb",
+				"wikidata": "Q503375",
+				"wikipedia": "en:Tottenham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0672892, 51.5976955]
+			},
+			"id": "node/27364686"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27364687",
+				"is_in": "Haringey, London",
+				"name": "Crouch End",
+				"place": "suburb",
+				"wikidata": "Q24502",
+				"wikipedia": "en:Crouch End"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1235992, 51.5787402]
+			},
+			"id": "node/27364687"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365015",
+				"is_in": "Haringey, London",
+				"name": "West Green",
+				"place": "suburb",
+				"wikidata": "Q4019077",
+				"wikipedia": "en:West Green, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0898489, 51.5868063]
+			},
+			"id": "node/27365015"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365016",
+				"is_in": "Hackney, London",
+				"name": "Stamford Hill",
+				"place": "suburb",
+				"wikidata": "Q2716505",
+				"wikipedia": "en:Stamford Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0690402, 51.5707092]
+			},
+			"id": "node/27365016"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365017",
+				"is_in": "Hackney, London",
+				"name": "Upper Clapton",
+				"place": "suburb",
+				"wikidata": "Q7898566",
+				"wikipedia": "en:Upper Clapton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0605697, 51.5668384]
+			},
+			"id": "node/27365017"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365018",
+				"is_in": "Hackney, London",
+				"name": "Stoke Newington",
+				"place": "suburb",
+				"wikidata": "Q2483346",
+				"wikipedia": "en:Stoke Newington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0772816, 51.5576971]
+			},
+			"id": "node/27365018"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365019",
+				"is_in": "Hackney, London",
+				"name": "Lower Clapton",
+				"place": "suburb",
+				"wikidata": "Q6693387",
+				"wikipedia": "en:Lower Clapton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0550912, 51.5546565]
+			},
+			"id": "node/27365019"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365020",
+				"addr:postcode": "N1",
+				"is_in": "Islington, London",
+				"name": "Islington",
+				"name:ru": "Излингтон",
+				"place": "suburb",
+				"wikidata": "Q125163",
+				"wikipedia": "en:Islington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0999051, 51.5384287]
+			},
+			"id": "node/27365020"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365022",
+				"is_in": "Camden, London",
+				"name": "Kentish Town",
+				"place": "suburb",
+				"wikidata": "Q149782",
+				"wikipedia": "en:Kentish Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1425625, 51.5500658]
+			},
+			"id": "node/27365022"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365023",
+				"is_in": "Camden, London",
+				"name": "Gospel Oak",
+				"place": "suburb",
+				"wikidata": "Q149587",
+				"wikipedia": "en:Gospel Oak"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1517524, 51.5536863]
+			},
+			"id": "node/27365023"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365024",
+				"is_in": "Tower Hamlets, London",
+				"name": "Bethnal Green",
+				"place": "suburb",
+				"wikidata": "Q124204",
+				"wikipedia": "en:Bethnal Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.058279037475585944, 51.52682174690637]
+			},
+			"id": "node/27365024"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365025",
+				"is_in": "Hackney, London",
+				"name": "Dalston",
+				"place": "town",
+				"wikidata": "Q2499366",
+				"wikipedia": "en:Dalston"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.07029533386230469, 51.543185724231996]
+			},
+			"id": "node/27365025"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365026",
+				"is_in": "Hackney, London",
+				"name": "Haggerston",
+				"place": "suburb",
+				"wikidata": "Q2146341",
+				"wikipedia": "en:Haggerston"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.072784423828125, 51.53584535270441]
+			},
+			"id": "node/27365026"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365028",
+				"is_in": "Tower Hamlets, London",
+				"name": "Wapping",
+				"name:he": "וופינג",
+				"place": "suburb",
+				"wikidata": "Q124046",
+				"wikipedia": "en:Wapping"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.06081104278564453, 51.50612477372582]
+			},
+			"id": "node/27365028"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365029",
+				"is_in": "Hackney, London",
+				"name": "Shoreditch",
+				"place": "suburb",
+				"wikidata": "Q1027127",
+				"wikipedia": "en:Shoreditch"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0798926, 51.5266694]
+			},
+			"id": "node/27365029"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365031",
+				"is_in": "Islington, London",
+				"name": "Clerkenwell",
+				"place": "suburb",
+				"wikidata": "Q124129",
+				"wikipedia": "en:Clerkenwell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.10158061981201172, 51.523510863177314]
+			},
+			"id": "node/27365031"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365033",
+				"is_in": "Camden, London",
+				"name": "Bloomsbury",
+				"name:ru": "Блумсбери",
+				"place": "suburb",
+				"wikidata": "Q150120",
+				"wikipedia": "en:Bloomsbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1260664, 51.523126]
+			},
+			"id": "node/27365033"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365035",
+				"is_in": "Southwark, London",
+				"name": "Bermondsey",
+				"place": "suburb",
+				"wikidata": "Q822040",
+				"wikipedia": "en:Bermondsey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.063268, 51.4970125]
+			},
+			"id": "node/27365035"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365036",
+				"is_in": "Tower Hamlets, London",
+				"name": "Millwall",
+				"place": "suburb",
+				"wikidata": "Q123620",
+				"wikipedia": "en:Millwall"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0212187, 51.4933423]
+			},
+			"id": "node/27365036"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365037",
+				"is_in": "Southwark, London",
+				"name": "Rotherhithe",
+				"place": "suburb",
+				"wikidata": "Q2886632",
+				"wikipedia": "en:Rotherhithe"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0436321, 51.5002908]
+			},
+			"id": "node/27365037"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365038",
+				"is_in": "Tower Hamlets, London",
+				"name": "Stepney",
+				"name:he": "סטפני",
+				"place": "suburb",
+				"wikidata": "Q123627",
+				"wikipedia": "en:Stepney"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0462189, 51.5174023]
+			},
+			"id": "node/27365038"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365039",
+				"is_in": "Tower Hamlets, London",
+				"name": "Limehouse",
+				"place": "suburb",
+				"wikidata": "Q123741",
+				"wikipedia": "en:Limehouse"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0351492, 51.5133074]
+			},
+			"id": "node/27365039"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365040",
+				"is_in": "Isle of Dogs, Tower Hamlets, London, UK",
+				"name": "Cubitt Town",
+				"place": "suburb",
+				"wikidata": "Q122750",
+				"wikipedia": "en:Cubitt Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0082433, 51.4936677]
+			},
+			"id": "node/27365040"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365041",
+				"is_in": "Tower hamlets, London",
+				"name": "Blackwall",
+				"place": "suburb",
+				"wikidata": "Q122767",
+				"wikipedia": "en:Blackwall, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0064024, 51.5065004]
+			},
+			"id": "node/27365041"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365043",
+				"is_in": "Tower Hamlets, London",
+				"name": "Poplar",
+				"place": "suburb",
+				"wikidata": "Q123360",
+				"wikipedia": "en:Poplar, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0143883, 51.5111811]
+			},
+			"id": "node/27365043"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365044",
+				"is_in": "Tower Hamlets, London",
+				"name": "Bromley-by-Bow",
+				"place": "suburb",
+				"wikidata": "Q123616",
+				"wikipedia": "en:Bromley-by-Bow"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.010471343994140625, 51.5231103367263]
+			},
+			"id": "node/27365044"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365045",
+				"is_in": "Tower Hamlets, London",
+				"name": "Bow",
+				"place": "suburb",
+				"wikidata": "Q122607",
+				"wikipedia": "en:Bow, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0194816, 51.5283085]
+			},
+			"id": "node/27365045"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365046",
+				"is_in": "Newham, London",
+				"name": "Stratford",
+				"name:ru": "Стратфорд",
+				"old_name": "Stratford Langthorne",
+				"place": "town",
+				"population": "98812",
+				"wikidata": "Q676136",
+				"wikipedia": "en:Stratford, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0016369, 51.5406711]
+			},
+			"id": "node/27365046"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365049",
+				"is_in": "Waltham Forest, London",
+				"name": "Leytonstone",
+				"place": "suburb",
+				"wikidata": "Q1368969",
+				"wikipedia": "en:Leytonstone"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.008325576782226562, 51.568480912185464]
+			},
+			"id": "node/27365049"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365050",
+				"is_in": "Waltham Forest, London",
+				"name": "Walthamstow",
+				"name:ru": "Уолтемстоу",
+				"place": "town",
+				"wikidata": "Q2321784",
+				"wikipedia": "en:Walthamstow"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.018453598022460938, 51.58330994229597]
+			},
+			"id": "node/27365050"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365051",
+				"name": "Edmonton",
+				"place": "suburb",
+				"wikidata": "Q1997321",
+				"wikipedia": "en:Edmonton, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0659791, 51.6203392]
+			},
+			"id": "node/27365051"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365298",
+				"is_in": "Islington, London",
+				"name": "Upper Holloway",
+				"place": "suburb",
+				"wikidata": "Q121629",
+				"wikipedia": "en:Upper Holloway"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1338683, 51.5644891]
+			},
+			"id": "node/27365298"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365299",
+				"is_in": "Islington, London",
+				"name": "Highbury",
+				"place": "suburb",
+				"wikidata": "Q124394",
+				"wikipedia": "en:Highbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1027127, 51.5457996]
+			},
+			"id": "node/27365299"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365300",
+				"is_in": "Islington, London",
+				"name": "Barnsbury",
+				"place": "suburb",
+				"wikidata": "Q122776",
+				"wikipedia": "en:Barnsbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.114735, 51.5389351]
+			},
+			"id": "node/27365300"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365302",
+				"is_in": "Greenwich, London, UK",
+				"name": "Greenwich",
+				"name:be": "Грынвіч",
+				"name:eo": "Grenviĉo",
+				"name:ru": "Гринвич",
+				"place": "town",
+				"wikidata": "Q179385",
+				"wikipedia": "en:Greenwich"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.006694793701171875, 51.47924473865486]
+			},
+			"id": "node/27365302"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365303",
+				"is_in": "Greenwich, London",
+				"name": "Charlton",
+				"place": "suburb",
+				"wikidata": "Q1067477",
+				"wikipedia": "en:Charlton, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0365359, 51.4826053]
+			},
+			"id": "node/27365303"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365305",
+				"is_in": "Lewisham, London, UK",
+				"name": "Lewisham",
+				"name:ru": "Льюишам",
+				"place": "town",
+				"population": "96224",
+				"wikidata": "Q6537297",
+				"wikipedia": "en:Lewisham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0101331, 51.4624325]
+			},
+			"id": "node/27365305"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365501",
+				"is_in": "Brent, London, UK",
+				"name": "Willesden",
+				"place": "suburb",
+				"wikidata": "Q146702",
+				"wikipedia": "en:Willesden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2358661, 51.5466216]
+			},
+			"id": "node/27365501"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365505",
+				"is_in": "London Borough of Brent",
+				"name": "Wembley",
+				"name:en": "Wembley",
+				"name:ru": "Уэмбли",
+				"name:zh": "温布利",
+				"place": "town",
+				"population": "115079",
+				"wikidata": "Q146858",
+				"wikipedia": "en:Wembley"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2957562, 51.5531547]
+			},
+			"id": "node/27365505"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365506",
+				"is_in": "London",
+				"name": "Hillingdon",
+				"place": "suburb",
+				"wikidata": "Q1064180"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.453256, 51.532563]
+			},
+			"id": "node/27365506"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365507",
+				"name": "Ruislip",
+				"place": "town",
+				"source": "local_knowledge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.421600341796875, 51.573762308533105]
+			},
+			"id": "node/27365507"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365508",
+				"is_in": "Hillingdon,London",
+				"is_in:historic_county": "Middlesex",
+				"name": "Uxbridge",
+				"place": "town",
+				"population": "52774",
+				"wikidata": "Q3552816"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4816672, 51.5449509]
+			},
+			"id": "node/27365508"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365509",
+				"is_in": "Harrow, Greater London, England, United Kingdom",
+				"name": "Harrow on the Hill",
+				"place": "suburb",
+				"wikidata": "Q608406",
+				"wikipedia": "en:Harrow on the Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3406636, 51.5715948]
+			},
+			"id": "node/27365509"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365510",
+				"name": "Northwood",
+				"place": "suburb",
+				"wikidata": "Q2090609"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4205812, 51.6051713]
+			},
+			"id": "node/27365510"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365511",
+				"name": "Pinner",
+				"place": "suburb",
+				"wikidata": "Q2453742"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3770142, 51.5968712]
+			},
+			"id": "node/27365511"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365512",
+				"is_in": "Harrow, London",
+				"name": "Wealdstone",
+				"place": "suburb",
+				"wikidata": "Q2589602",
+				"wikipedia": "en:Wealdstone"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3294758, 51.5936353]
+			},
+			"id": "node/27365512"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27365513",
+				"is_in": "Hounslow, London, UK",
+				"is_in:district": "Hounslow",
+				"name": "Brentford",
+				"name:ru": "Брентфорд",
+				"place": "suburb",
+				"wikidata": "Q1013528",
+				"wikipedia": "en:Brentford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3137540817260742, 51.48512443042995]
+			},
+			"id": "node/27365513"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27380330",
+				"is_in": "Havering,London,England,UK",
+				"is_in_postal": "Essex",
+				"name": "Romford",
+				"place": "town",
+				"population": "95894",
+				"wikidata": "Q1339305"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1822646, 51.5760462]
+			},
+			"id": "node/27380330"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27396436",
+				"is_in": "Kensington and Chelsea, London",
+				"name": "South Kensington",
+				"place": "suburb",
+				"wikidata": "Q1045096",
+				"wikipedia": "en:South Kensington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.18024444580078125, 51.49762961696847]
+			},
+			"id": "node/27396436"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27396490",
+				"is_in": "Westminster, London, UK",
+				"name": "Knightsbridge",
+				"name:zh": "骑士桥",
+				"place": "suburb",
+				"wikidata": "Q26328",
+				"wikipedia": "en:Knightsbridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.16217708587646482, 51.499953920988176]
+			},
+			"id": "node/27396490"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27431769",
+				"is_in": "Hertfordshire, UK",
+				"name": "Cheshunt",
+				"name:lt": "Češantas",
+				"place": "suburb",
+				"wikidata": "Q19790"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0335908, 51.702052]
+			},
+			"id": "node/27431769"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27431951",
+				"created_by": "JOSM",
+				"name": "Potters Bar",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1955649, 51.702588]
+			},
+			"id": "node/27431951"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27467065",
+				"is_in": "London",
+				"name": "Fitzrovia",
+				"place": "suburb",
+				"wikidata": "Q121663",
+				"wikipedia": "en:Fitzrovia"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1410017, 51.5187642]
+			},
+			"id": "node/27467065"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27467066",
+				"is_in": "Westminster, London",
+				"name": "Marylebone",
+				"name:ru": "Мерилибон",
+				"place": "suburb",
+				"wikidata": "Q123634",
+				"wikipedia": "en:Marylebone"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.15119075775146484, 51.51955884809397]
+			},
+			"id": "node/27467066"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27467067",
+				"is_in": "Kensington and Chelsea, London, UK",
+				"name": "Chelsea",
+				"name:ru": "Челси",
+				"place": "suburb",
+				"wikidata": "Q743535",
+				"wikipedia": "en:Chelsea, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1682205, 51.4875417]
+			},
+			"id": "node/27467067"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27467182",
+				"is_in": "Kensington and Chelsea, London, UK",
+				"name": "Kensington",
+				"name:en": "Kensington",
+				"name:ru": "Кенсингтон",
+				"place": "town",
+				"population": "64681",
+				"wikidata": "Q288781",
+				"wikipedia": "en:Kensington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1991229, 51.4989948]
+			},
+			"id": "node/27467182"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27467184",
+				"is_in": "Westminster, London",
+				"name": "Paddington",
+				"name:he": "פדינגטון",
+				"name:ru": "Паддингтон",
+				"name:zh": "帕丁頓",
+				"place": "suburb",
+				"wikidata": "Q124230",
+				"wikipedia": "en:Paddington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1792423, 51.5163047]
+			},
+			"id": "node/27467184"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27467185",
+				"is_in": "Westminster, London",
+				"name": "Maida Vale",
+				"place": "suburb",
+				"wikidata": "Q122744",
+				"wikipedia": "en:Maida Vale"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1905916, 51.527592]
+			},
+			"id": "node/27467185"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27481928",
+				"is_in": "Hackney, London",
+				"name": "De Beauvoir Town",
+				"place": "suburb",
+				"wikidata": "Q3703907",
+				"wikipedia": "en:De Beauvoir Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0850011, 51.539929]
+			},
+			"id": "node/27481928"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27481929",
+				"is_in": "Hackney, London",
+				"name": "Homerton",
+				"place": "suburb",
+				"wikidata": "Q2744319",
+				"wikipedia": "en:Homerton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0399629, 51.5504686]
+			},
+			"id": "node/27481929"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485887",
+				"is_in": "Bromley, London",
+				"name": "Orpington",
+				"place": "town",
+				"population": "15311",
+				"wikidata": "Q123977",
+				"wikipedia": "en:Orpington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.09879112243652344, 51.376280962616]
+			},
+			"id": "node/27485887"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485888",
+				"is_in": "Bromley, London",
+				"name": "Chislehurst",
+				"place": "suburb",
+				"wikidata": "Q122917",
+				"wikipedia": "en:Chislehurst"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0769545, 51.4115718]
+			},
+			"id": "node/27485888"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485890",
+				"is_in": "London",
+				"name": "Thamesmead",
+				"place": "suburb",
+				"wikidata": "Q146774",
+				"wikipedia": "en:Thamesmead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1148486, 51.4989335]
+			},
+			"id": "node/27485890"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485891",
+				"is_in": "Bromley, London",
+				"name": "St Mary Cray",
+				"name:hi": "सेंट मेरी क्रे",
+				"place": "suburb",
+				"wikidata": "Q123350",
+				"wikipedia": "en:St Mary Cray"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.11205196380615234, 51.38986040809785]
+			},
+			"id": "node/27485891"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485892",
+				"is_in": "Bexley, UK",
+				"name": "Bexley",
+				"place": "suburb",
+				"wikidata": "Q146416",
+				"wikipedia": "en:Bexley"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.150488, 51.4416793]
+			},
+			"id": "node/27485892"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485893",
+				"name": "Erith",
+				"place": "suburb",
+				"wikidata": "Q146671",
+				"wikipedia": "en:Erith"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.17663955688476562, 51.47988619641402]
+			},
+			"id": "node/27485893"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485894",
+				"name": "Bexleyheath",
+				"place": "town",
+				"population": "21511",
+				"wikidata": "Q146732",
+				"wikipedia": "en:Bexleyheath"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1480552, 51.4634854]
+			},
+			"id": "node/27485894"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27485895",
+				"is_in": "Kent, UK",
+				"name": "Dartford",
+				"name:lt": "Dartfordas",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2135344, 51.4492657]
+			},
+			"id": "node/27485895"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486048",
+				"created_by": "JOSM",
+				"name": "Sevenoaks",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1914386, 51.2719654]
+			},
+			"id": "node/27486048"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486052",
+				"name": "Biggin Hill",
+				"old_name": "Aperfield",
+				"place": "town",
+				"wikidata": "Q122241",
+				"wikipedia": "en:Biggin Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0327167, 51.3166288]
+			},
+			"id": "node/27486052"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486121",
+				"is_in": "Newham, London, UK",
+				"name": "Canning Town",
+				"place": "suburb",
+				"wikidata": "Q1792879",
+				"wikipedia": "en:Canning Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0134976, 51.5181741]
+			},
+			"id": "node/27486121"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486122",
+				"is_in": "Newham, London",
+				"name": "West Ham",
+				"note": "Not sure exactyl where west ham is, but its certainly not where this marker use to be.",
+				"place": "suburb",
+				"wikidata": "Q939617",
+				"wikipedia": "en:West Ham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.009698867797851562, 51.53560510235603]
+			},
+			"id": "node/27486122"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486150",
+				"is_in": "Barking and Dagenham, London",
+				"name": "Becontree",
+				"place": "suburb",
+				"wikidata": "Q2571762",
+				"wikipedia": "en:Becontree"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1275378, 51.5492654]
+			},
+			"id": "node/27486150"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486181",
+				"is_in:country": "UK",
+				"is_in:county": "Essex",
+				"name": "Rainham",
+				"place": "suburb",
+				"wikidata": "Q2746137"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1996559, 51.5167284]
+			},
+			"id": "node/27486181"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27486184",
+				"name": "South Hornchurch",
+				"place": "suburb",
+				"wikidata": "Q7567502"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1893092, 51.5325406]
+			},
+			"id": "node/27486184"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27529126",
+				"is_in": "Haringey, London",
+				"name": "Harringay",
+				"place": "suburb",
+				"wikidata": "Q952515",
+				"wikipedia": "en:Harringay"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.099995, 51.5810883]
+			},
+			"id": "node/27529126"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27529289",
+				"is_in": "London Borough of Hounslow, London, UK",
+				"name": "Chiswick",
+				"name:ru": "Чизик",
+				"name:uk": "Чизік",
+				"place": "town",
+				"population": "34337",
+				"wikidata": "Q845015",
+				"wikipedia": "en:Chiswick"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2618694305419922, 51.4796189234441]
+			},
+			"id": "node/27529289"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27529290",
+				"is_in:district": "Hounslow",
+				"name": "Isleworth",
+				"place": "suburb",
+				"wikidata": "Q2432955",
+				"wikipedia": "en:Isleworth"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3293752670288086, 51.471546541834144]
+			},
+			"id": "node/27529290"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27534857",
+				"name": "Hanwell",
+				"place": "suburb",
+				"wikidata": "Q83593",
+				"wikipedia": "en:Hanwell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3381584, 51.5089838]
+			},
+			"id": "node/27534857"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27535022",
+				"name": "Greenford",
+				"place": "suburb",
+				"wikidata": "Q83475"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3527601, 51.5279378]
+			},
+			"id": "node/27535022"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27535701",
+				"is_in": "Greater London, England, United Kingdom",
+				"name": "Harrow",
+				"place": "town",
+				"population": "80213",
+				"wikidata": "Q54961",
+				"wikipedia": "en:Harrow, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.337475, 51.581091]
+			},
+			"id": "node/27535701"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27536665",
+				"name": "South Harrow",
+				"place": "suburb",
+				"wikidata": "Q3634311"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.352919, 51.565869]
+			},
+			"id": "node/27536665"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553615",
+				"is_in": "Newham, London",
+				"name": "Plaistow",
+				"place": "suburb",
+				"wikidata": "Q2407244",
+				"wikipedia": "en:Plaistow, Newham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0249097, 51.5293798]
+			},
+			"id": "node/27553615"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553702",
+				"is_in": "Lambeth, London, UK",
+				"name": "Kennington",
+				"place": "suburb",
+				"wikidata": "Q146696",
+				"wikipedia": "en:Kennington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.10909080505371092, 51.48346750309851]
+			},
+			"id": "node/27553702"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553707",
+				"is_in": "Lambeth, London, UK",
+				"name": "Vauxhall",
+				"place": "suburb",
+				"wikidata": "Q146747",
+				"wikipedia": "en:Vauxhall"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12132167816162108, 51.4853114990882]
+			},
+			"id": "node/27553707"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553712",
+				"is_in": "Southwark, London",
+				"name": "Southwark",
+				"name:hi": "सदक",
+				"phonetic:en": "/ˈsʌðərk/",
+				"place": "suburb",
+				"wikidata": "Q5273898",
+				"wikipedia": "en:Southwark"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.103458, 51.5029222]
+			},
+			"id": "node/27553712"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553719",
+				"is_in": "Lambeth, London",
+				"name": "Lambeth",
+				"place": "suburb",
+				"wikidata": "Q148349",
+				"wikipedia": "en:Lambeth"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.11411190032958984, 51.496801388042684]
+			},
+			"id": "node/27553719"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553725",
+				"is_in": "Lambeth, London, UK",
+				"name": "Stockwell",
+				"place": "suburb",
+				"wikidata": "Q146891",
+				"wikipedia": "en:Stockwell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12162208557128906, 51.471546541834144]
+			},
+			"id": "node/27553725"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553734",
+				"is_in": "Southwark, London, UK",
+				"is_in:county": "Southwark",
+				"name": "Camberwell",
+				"name:zh": "坎伯韦尔",
+				"place": "suburb",
+				"wikidata": "Q385060",
+				"wikipedia": "en:Camberwell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0925416, 51.4745706]
+			},
+			"id": "node/27553734"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553742",
+				"is_in": "Southwark, London, UK",
+				"name": "East Dulwich",
+				"place": "suburb",
+				"wikidata": "Q3305828",
+				"wikipedia": "en:East Dulwich"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0727322, 51.4585551]
+			},
+			"id": "node/27553742"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553749",
+				"is_in": "Southwark, London, UK",
+				"name": "Dulwich",
+				"place": "suburb",
+				"wikidata": "Q146766",
+				"wikipedia": "en:Dulwich"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0843244, 51.4418786]
+			},
+			"id": "node/27553749"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27553768",
+				"is_in": "Lewisham, London, UK",
+				"name": "Forest Hill",
+				"place": "suburb",
+				"wikidata": "Q1626233",
+				"wikipedia": "en:Forest Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0539538, 51.439108]
+			},
+			"id": "node/27553768"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27554058",
+				"is_in": "London",
+				"name": "Deptford",
+				"place": "suburb",
+				"wikidata": "Q2308650",
+				"wikipedia": "en:Deptford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0215164, 51.4758453]
+			},
+			"id": "node/27554058"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27554063",
+				"is_in": "Lewisham, London",
+				"name": "New Cross Gate",
+				"place": "suburb",
+				"wikidata": "Q369361",
+				"wikipedia": "en:New Cross Gate"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.045284, 51.4746978]
+			},
+			"id": "node/27554063"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27554266",
+				"is_in": "Wandsworth, London, UK",
+				"name": "Battersea",
+				"name:zh": "巴特锡",
+				"place": "suburb",
+				"wikidata": "Q1138912",
+				"wikipedia": "en:Battersea"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.16788482666015625, 51.47250888748587]
+			},
+			"id": "node/27554266"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27554267",
+				"is_in": "Lambeth, London, UK",
+				"is_in:county": "Lambeth",
+				"name": "Clapham",
+				"place": "town",
+				"wikidata": "Q146659",
+				"wikipedia": "en:Clapham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1388561, 51.4622924]
+			},
+			"id": "node/27554267"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27729031",
+				"name": "Southgate",
+				"place": "suburb",
+				"wikidata": "Q2678895",
+				"wikipedia": "en:Southgate, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.123596, 51.6281547]
+			},
+			"id": "node/27729031"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27729624",
+				"is_in": "Haringey, London",
+				"name": "Hornsey",
+				"place": "suburb",
+				"wikidata": "Q2454407",
+				"wikipedia": "en:Hornsey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1209667, 51.5873645]
+			},
+			"id": "node/27729624"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27729625",
+				"is_in": "Barnet, London",
+				"name": "Finchley",
+				"place": "suburb",
+				"wikidata": "Q150217",
+				"wikipedia": "en:Finchley"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1805587, 51.5973246]
+			},
+			"id": "node/27729625"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27730054",
+				"name": "Mill Hill",
+				"place": "suburb",
+				"wikidata": "Q149688"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2330675, 51.6154423]
+			},
+			"id": "node/27730054"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27731303",
+				"is_in": "Redbridge, London",
+				"name": "Woodford",
+				"place": "suburb",
+				"wikidata": "Q15103231",
+				"wikipedia": "en:Woodford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0395776, 51.6051901]
+			},
+			"id": "node/27731303"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27731306",
+				"is_in": "Essex, UK",
+				"is_in:district": "Epping Forest",
+				"name": "Buckhurst Hill",
+				"place": "suburb",
+				"wikidata": "Q2684024"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0415283, 51.6268617]
+			},
+			"id": "node/27731306"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27731564",
+				"is_in": "Essex, UK",
+				"is_in:district": "Epping Forest",
+				"name": "Chigwell",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.07844924926757812, 51.62036135325299]
+			},
+			"id": "node/27731564"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27731566",
+				"is_in": "Redbridge, London",
+				"name": "Barkingside",
+				"place": "suburb",
+				"wikidata": "Q3634315",
+				"wikipedia": "en:Barkingside"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0848694, 51.588311]
+			},
+			"id": "node/27731566"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27731567",
+				"is_in": "Redbridge, London",
+				"name": "Newbury Park",
+				"place": "suburb",
+				"wikidata": "Q2284627",
+				"wikipedia": "en:Newbury Park, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0922634, 51.5758531]
+			},
+			"id": "node/27731567"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27731568",
+				"is_in": "Redbridge, London",
+				"name": "Wanstead",
+				"place": "suburb",
+				"wikidata": "Q2491351",
+				"wikipedia": "en:Wanstead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0277989, 51.5756739]
+			},
+			"id": "node/27731568"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27732675",
+				"is_in": "Bexley, London",
+				"name": "Welling",
+				"place": "suburb",
+				"wikidata": "Q146779",
+				"wikipedia": "en:Welling"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1059038, 51.46529]
+			},
+			"id": "node/27732675"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27732676",
+				"is_in": "Greenwich, London",
+				"name": "Plumstead",
+				"place": "suburb",
+				"wikidata": "Q946533",
+				"wikipedia": "en:Plumstead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.09158134460449219, 51.483627853536014]
+			},
+			"id": "node/27732676"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/27732678",
+				"is_in": "Greenwich, London, UK",
+				"name": "Abbey Wood",
+				"place": "suburb",
+				"wikidata": "Q147104",
+				"wikipedia": "en:Abbey Wood"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1140504, 51.487621]
+			},
+			"id": "node/27732678"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/28296776",
+				"is_in": "Bromley, London",
+				"name": "Penge",
+				"place": "suburb",
+				"wikidata": "Q124007",
+				"wikipedia": "en:Penge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0534213, 51.4146841]
+			},
+			"id": "node/28296776"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/29141200",
+				"name": "Redhill",
+				"place": "town",
+				"wikidata": "Q1851095",
+				"wikipedia": "en:Redhill, Surrey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1682816, 51.2404691]
+			},
+			"id": "node/29141200"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/29174788",
+				"is_in": "Grays, Thurrock, Essex, England, UK",
+				"name": "West Thurrock",
+				"place": "suburb",
+				"wikidata": "Q971550"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2721259, 51.47712]
+			},
+			"id": "node/29174788"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/29369448",
+				"name": "Swanley",
+				"place": "town",
+				"source": "survey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1777022, 51.3956935]
+			},
+			"id": "node/29369448"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/29402048",
+				"is_in": "Lambeth, London, UK",
+				"name": "Herne Hill",
+				"place": "suburb",
+				"wikidata": "Q146553",
+				"wikipedia": "en:Herne Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1001002, 51.4554407]
+			},
+			"id": "node/29402048"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/29402049",
+				"is_in": "Lambeth, London, UK",
+				"name": "Tulse Hill",
+				"place": "suburb",
+				"wikidata": "Q146843",
+				"wikipedia": "en:Tulse Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1020591, 51.4412109]
+			},
+			"id": "node/29402049"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/30738531",
+				"is_in": "Richmond upon Thames, London",
+				"name": "Ham",
+				"name:hi": "हैम",
+				"place": "suburb",
+				"wikidata": "Q5643819",
+				"wikipedia": "en:Ham, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3092987, 51.4347641]
+			},
+			"id": "node/30738531"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/30759430",
+				"name": "Sudbury",
+				"place": "suburb",
+				"wikidata": "Q146261"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.32486915588378906, 51.55674227897659]
+			},
+			"id": "node/30759430"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31000778",
+				"is_in": "Sutton, Greater London, UK",
+				"name": "Carshalton",
+				"place": "suburb",
+				"wikidata": "Q2220276",
+				"wikipedia": "en:Carshalton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1610857, 51.3657883]
+			},
+			"id": "node/31000778"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31036372",
+				"is_in:district": "Hounslow",
+				"name": "Heston",
+				"place": "suburb",
+				"wikidata": "Q2571386"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3719561, 51.4854573]
+			},
+			"id": "node/31036372"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31036373",
+				"is_in:district": "Hounslow",
+				"name": "Osterley",
+				"place": "suburb",
+				"wikidata": "Q2137632"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3520726, 51.4810984]
+			},
+			"id": "node/31036373"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31036374",
+				"is_in": "London Borough of Hounslow",
+				"name": "Hounslow",
+				"place": "town",
+				"population": "66292",
+				"wikidata": "Q2022317"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3613471, 51.4686132]
+			},
+			"id": "node/31036374"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31424254",
+				"name": "Harmondsworth",
+				"place": "suburb",
+				"wikidata": "Q2230788"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4755435, 51.4889317]
+			},
+			"id": "node/31424254"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31425699",
+				"name": "West Drayton",
+				"place": "suburb",
+				"wikidata": "Q7984991"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4662704, 51.503513]
+			},
+			"id": "node/31425699"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/31922291",
+				"is_in": "Lambeth, London, UK",
+				"name": "Streatham Hill",
+				"place": "suburb",
+				"wikidata": "Q146667",
+				"wikipedia": "en:Streatham Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1222891, 51.4454502]
+			},
+			"id": "node/31922291"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/33382361",
+				"is_in": "Newham, London",
+				"name": "North Woolwich",
+				"place": "suburb",
+				"wikidata": "Q2246577",
+				"wikipedia": "en:North Woolwich"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.064154, 51.5004071]
+			},
+			"id": "node/33382361"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/33499702",
+				"name": "Brownswood Park",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0972619, 51.5647805]
+			},
+			"id": "node/33499702"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/33758152",
+				"is_in": "Sutton,London,UK",
+				"name": "Beddington",
+				"place": "suburb",
+				"wikidata": "Q4437783",
+				"wikipedia": "en:Beddington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1323928, 51.3719875]
+			},
+			"id": "node/33758152"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/33758228",
+				"is_in": "Sutton, Greater London, UK",
+				"name": "Wallington",
+				"place": "suburb",
+				"wikidata": "Q2509310",
+				"wikipedia": "en:Wallington, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1495621, 51.357945]
+			},
+			"id": "node/33758228"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/36489724",
+				"is_in:district": "Hounslow",
+				"name": "Lampton",
+				"place": "suburb",
+				"wikidata": "Q6482670"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3641365, 51.4776251]
+			},
+			"id": "node/36489724"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/41031645",
+				"name": "Harold Wood",
+				"place": "suburb",
+				"wikidata": "Q1998477"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2310497, 51.5936326]
+			},
+			"id": "node/41031645"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/41045184",
+				"is_in": "Romford,Essex,England,UK",
+				"name": "Harold Hill",
+				"place": "suburb",
+				"wikidata": "Q2176897"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2201549, 51.6049]
+			},
+			"id": "node/41045184"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/45365899",
+				"is_in": "Hornchurch,Havering,Essex,England,UK",
+				"name": "Ardleigh Green",
+				"place": "suburb",
+				"wikidata": "Q2014212"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2209904, 51.5841911]
+			},
+			"id": "node/45365899"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/45378448",
+				"is_in": "Hornchurch,Havering,Essex,England,UK",
+				"name": "Emerson Park",
+				"place": "suburb",
+				"wikidata": "Q1902832"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.223239, 51.5714963]
+			},
+			"id": "node/45378448"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/45479715",
+				"is_in": "Surrey, UK",
+				"name": "Egham",
+				"place": "town",
+				"wikidata": "Q746681",
+				"wikipedia": "en:Egham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5473085, 51.4312585]
+			},
+			"id": "node/45479715"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/52006668",
+				"name": "Oxted",
+				"place": "town",
+				"source": "npe",
+				"wikidata": "Q2189348",
+				"wikipedia": "en:Oxted"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0041977, 51.2566507]
+			},
+			"id": "node/52006668"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/52706783",
+				"is_in": "Romford,Havering,Essex,England,UK",
+				"name": "Collier Row",
+				"place": "suburb",
+				"wikidata": "Q2683785"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.16376495361328125, 51.59733439153138]
+			},
+			"id": "node/52706783"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/56236733",
+				"is_in": "Romford,Havering,Essex,England,UK",
+				"name": "Gidea Park",
+				"place": "suburb",
+				"wikidata": "Q2545813"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2059524, 51.5811818]
+			},
+			"id": "node/56236733"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/59193109",
+				"is_in:district": "Richmond",
+				"name": "Whitton",
+				"place": "suburb",
+				"wikidata": "Q7996944"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3579759, 51.4511693]
+			},
+			"id": "node/59193109"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/59842030",
+				"is_in": "London Borough of Hounslow",
+				"name": "Cranford",
+				"place": "suburb",
+				"wikidata": "Q5182098"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4096772, 51.4806709]
+			},
+			"id": "node/59842030"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/63805934",
+				"is_in": "Croydon, England",
+				"name": "Selsdon",
+				"place": "suburb",
+				"wikidata": "Q669505"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0607688, 51.3443067]
+			},
+			"id": "node/63805934"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/64653632",
+				"is_in": "Lewisham, London",
+				"name": "Sydenham",
+				"place": "town",
+				"wikidata": "Q2104233",
+				"wikipedia": "en:Sydenham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0523877, 51.4267658]
+			},
+			"id": "node/64653632"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/88374730",
+				"is_in": "Croydon, England",
+				"name": "Kenley",
+				"place": "suburb",
+				"wikidata": "Q6389431"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1037854, 51.3227524]
+			},
+			"id": "node/88374730"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/88374952",
+				"is_in": "Croydon, England",
+				"name": "Purley",
+				"place": "suburb",
+				"wikidata": "Q2118905"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.115893, 51.3385156]
+			},
+			"id": "node/88374952"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/88375798",
+				"is_in": "Surrey, England",
+				"name": "Warlingham",
+				"place": "town",
+				"wikidata": "Q3062919",
+				"wikipedia": "en:Warlingham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0557157, 51.309559]
+			},
+			"id": "node/88375798"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/88376040",
+				"is_in": "Surrey, England",
+				"name": "Whyteleafe",
+				"place": "suburb",
+				"wikidata": "Q1610387"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.079236, 51.3110566]
+			},
+			"id": "node/88376040"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/94176427",
+				"is_in": "Surrey, England",
+				"name": "Caterham",
+				"place": "town",
+				"wikidata": "Q1996975",
+				"wikipedia": "en:Caterham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0771032, 51.2819693]
+			},
+			"id": "node/94176427"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/105539532",
+				"is_in": "Croydon, London",
+				"name": "South Norwood",
+				"place": "suburb",
+				"wikidata": "Q2265962",
+				"wikipedia": "en:South Norwood"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0768216, 51.3980951]
+			},
+			"id": "node/105539532"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/106227330",
+				"is_in": "Bromley, London",
+				"name": "West Wickham",
+				"place": "suburb",
+				"wikidata": "Q124021",
+				"wikipedia": "en:West Wickham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0148762, 51.3759744]
+			},
+			"id": "node/106227330"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/123921330",
+				"is_in": "Bromley, London, UK",
+				"name": "Beckenham",
+				"place": "suburb",
+				"population": "56668",
+				"wikidata": "Q123372",
+				"wikipedia": "en:Beckenham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0303183, 51.4070938]
+			},
+			"id": "node/123921330"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/128562066",
+				"is_in": "Croydon, England, UK",
+				"name": "Coulsdon",
+				"place": "town",
+				"wikidata": "Q2463831"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1393506, 51.3199716]
+			},
+			"id": "node/128562066"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/130823478",
+				"is_in": "Bromley, London",
+				"name": "Elmers End",
+				"place": "suburb",
+				"wikidata": "Q1076782",
+				"wikipedia": "en:Elmers End"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0416048, 51.3994675]
+			},
+			"id": "node/130823478"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/138187664",
+				"is_in": "Croydon, London",
+				"name": "Shirley",
+				"place": "suburb",
+				"wikidata": "Q7498666",
+				"wikipedia": "en:Shirley, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0466335, 51.3749243]
+			},
+			"id": "node/138187664"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/158758387",
+				"is_in": "Surrey",
+				"name": "Ashford",
+				"place": "town",
+				"wikidata": "Q725270",
+				"wikipedia": "en:Ashford, Surrey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4619837, 51.4330238]
+			},
+			"id": "node/158758387"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/183613836",
+				"is_in": "Upminster",
+				"name": "Cranham",
+				"place": "suburb",
+				"population": "12500",
+				"wikidata": "Q2514068",
+				"wikipedia": "en:Cranham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2679097, 51.5614882]
+			},
+			"id": "node/183613836"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/207141595",
+				"is_in": "Southwark, London, UK",
+				"name": "Peckham",
+				"place": "suburb",
+				"population": "71552",
+				"wikidata": "Q2690524",
+				"wikipedia": "en:Peckham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0699321, 51.4734122]
+			},
+			"id": "node/207141595"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/215809322",
+				"is_in": "Harrow, London, UK",
+				"name": "Rayners Lane",
+				"place": "suburb",
+				"wikidata": "Q7299331"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3703002, 51.5767143]
+			},
+			"id": "node/215809322"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/221170550",
+				"name": "Waltham Abbey",
+				"place": "suburb",
+				"wikidata": "Q2462706"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0009449, 51.6892068]
+			},
+			"id": "node/221170550"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/243814259",
+				"is_in": "Hackney, London",
+				"name": "Hoxton",
+				"place": "suburb",
+				"wikidata": "Q1998354",
+				"wikipedia": "en:Hoxton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.086078, 51.5323935]
+			},
+			"id": "node/243814259"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/249674698",
+				"is_in": "Merton, London, UK",
+				"name": "Mitcham",
+				"place": "suburb",
+				"wikidata": "Q687798",
+				"wikipedia": "en:Mitcham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1640787, 51.4058006]
+			},
+			"id": "node/249674698"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/253101009",
+				"created_by": "JOSM",
+				"name": "Worton",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3463595, 51.4647068]
+			},
+			"id": "node/253101009"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/255747342",
+				"name": "Ponders End",
+				"place": "suburb",
+				"wikidata": "Q7227719"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0403754, 51.6443511]
+			},
+			"id": "node/255747342"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/255747617",
+				"name": "Cockfosters",
+				"place": "suburb",
+				"wikidata": "Q149680"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1493822, 51.6476356]
+			},
+			"id": "node/255747617"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/255755993",
+				"name": "Winchmore Hill",
+				"place": "suburb",
+				"wikidata": "Q2438674"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1033617, 51.6333948]
+			},
+			"id": "node/255755993"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/255756095",
+				"is_in": "Enfield, London",
+				"name": "Palmers Green",
+				"place": "suburb",
+				"wikidata": "Q2887044",
+				"wikipedia": "en:Palmers Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1127378, 51.6222544]
+			},
+			"id": "node/255756095"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/266798614",
+				"is_in": "Sutton, London, UK",
+				"name": "Worcester Park",
+				"place": "suburb",
+				"source": "local knowledge",
+				"wikidata": "Q8034205",
+				"wikipedia": "en:Worcester Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2416023, 51.3783998]
+			},
+			"id": "node/266798614"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/266799034",
+				"is_in": "Epsom and Ewell, Surrey",
+				"name": "Stoneleigh",
+				"place": "suburb",
+				"source": "local knowledge",
+				"wikidata": "Q7619258",
+				"wikipedia": "en:Stoneleigh, Surrey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2462611, 51.3627372]
+			},
+			"id": "node/266799034"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/269611584",
+				"name": "Hadley Wood",
+				"place": "suburb",
+				"wikidata": "Q5637990"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1735167, 51.6671608]
+			},
+			"id": "node/269611584"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/281041529",
+				"is_in": "Camden, London, UK",
+				"name": "Euston",
+				"place": "suburb",
+				"wikidata": "Q149573",
+				"wikipedia": "en:Somers Town, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.13565540313720703, 51.52911786359545]
+			},
+			"id": "node/281041529"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/297805659",
+				"name": "Hampton",
+				"place": "suburb",
+				"wikidata": "Q766353"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3691409, 51.4150272]
+			},
+			"id": "node/297805659"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/309776226",
+				"is_in": "Hertfordshire, UK",
+				"name": "Borehamwood",
+				"name:lt": "Boramvudas",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2706506, 51.6604863]
+			},
+			"id": "node/309776226"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/314729225",
+				"name": "Watford Heath",
+				"place": "suburb",
+				"source": "www.npemap.org.uk",
+				"uk_postcode_centroid": "WD19"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.385174, 51.640054]
+			},
+			"id": "node/314729225"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/362908707",
+				"is_in": "Newham, London",
+				"name": "Little Ilford",
+				"place": "suburb",
+				"wikidata": "Q1851955",
+				"wikipedia": "en:Little Ilford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0625225, 51.550298]
+			},
+			"id": "node/362908707"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/364663239",
+				"is_in": "Harrow, London",
+				"name": "Harrow Weald",
+				"place": "suburb",
+				"wikidata": "Q5666599",
+				"wikipedia": "en:Harrow Weald"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3404854, 51.6047861]
+			},
+			"id": "node/364663239"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/364663370",
+				"is_in": "Harrow, London",
+				"name": "Belmont",
+				"place": "suburb",
+				"wikidata": "Q2964782",
+				"wikipedia": "en:Belmont, Harrow"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3181008, 51.601225]
+			},
+			"id": "node/364663370"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/364664007",
+				"is_in": "Harrow",
+				"name": "Stanmore",
+				"place": "suburb",
+				"wikidata": "Q2279685"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3095111, 51.6174205]
+			},
+			"id": "node/364664007"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/364664640",
+				"is_in": "Harrow",
+				"name": "Kenton",
+				"place": "suburb",
+				"wikidata": "Q146364",
+				"wikipedia": "en:Kenton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3134253, 51.5846627]
+			},
+			"id": "node/364664640"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/364844511",
+				"is_in": "Brent, London",
+				"name": "Kingsbury",
+				"place": "suburb",
+				"wikidata": "Q147127",
+				"wikipedia": "en:Kingsbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2804994, 51.5854367]
+			},
+			"id": "node/364844511"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/380743163",
+				"is_in": "Harrow",
+				"name": "Hatch End",
+				"place": "suburb",
+				"wikidata": "Q3633577"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3735477, 51.6084403]
+			},
+			"id": "node/380743163"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/383729579",
+				"name": "Old Street",
+				"place": "suburb",
+				"source": "local knowledge",
+				"wikidata": "Q124252"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.09076595306396483, 51.5253799400354]
+			},
+			"id": "node/383729579"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/385147398",
+				"is_in": "Wandsworth, London, UK",
+				"name": "Roehampton",
+				"place": "suburb",
+				"wikidata": "Q3057456",
+				"wikipedia": "en:Roehampton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2412672, 51.4498773]
+			},
+			"id": "node/385147398"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/385147523",
+				"is_in": "Richmond, London, UK",
+				"name": "East Sheen",
+				"place": "suburb",
+				"wikidata": "Q2530557",
+				"wikipedia": "en:East Sheen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.267094, 51.4623706]
+			},
+			"id": "node/385147523"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/385148479",
+				"is_in": "Richmond, London, UK",
+				"name": "Mortlake",
+				"name:zh": "摩特雷克",
+				"place": "suburb",
+				"wikidata": "Q2456238",
+				"wikipedia": "en:Mortlake"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2655601501464844, 51.467536549774074]
+			},
+			"id": "node/385148479"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/390315780",
+				"is_in": "Wandsworth, London, UK",
+				"name": "Southfields",
+				"place": "suburb",
+				"wikidata": "Q3492335",
+				"wikipedia": "en:Southfields"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2064713, 51.4447618]
+			},
+			"id": "node/390315780"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/399607277",
+				"alt_name": "Camden",
+				"is_in": "London, UK",
+				"name": "Camden Town",
+				"name:he": "קמדן טאון",
+				"place": "town",
+				"population": "24538",
+				"wikidata": "Q149836",
+				"wikipedia": "en:Camden Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1395604, 51.5423045]
+			},
+			"id": "node/399607277"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/409700968",
+				"is_in": "Southwark, London, UK",
+				"name": "Nunhead",
+				"place": "suburb",
+				"wikidata": "Q2236241",
+				"wikipedia": "en:Nunhead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0535056, 51.4615309]
+			},
+			"id": "node/409700968"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/423749783",
+				"is_in": "Merton, London, UK",
+				"name": "Wimbledon",
+				"place": "town",
+				"population": "58449",
+				"wikidata": "Q736742",
+				"wikipedia": "en:Wimbledon, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2174492, 51.4253863]
+			},
+			"id": "node/423749783"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/430826269",
+				"is_in": "London Borough of Richmond upon Thames",
+				"name": "Petersham",
+				"place": "suburb",
+				"wikidata": "Q2323537"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3052934, 51.4436913]
+			},
+			"id": "node/430826269"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/431507207",
+				"is_in": "London Borough of Greenwich",
+				"name": "Blackheath",
+				"place": "suburb",
+				"wikidata": "Q880861"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0085393, 51.4663492]
+			},
+			"id": "node/431507207"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/431524383",
+				"is_in": "Croydon",
+				"name": "Thornton Heath",
+				"place": "suburb",
+				"wikidata": "Q2123194"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.099602, 51.3988709]
+			},
+			"id": "node/431524383"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/447843121",
+				"is_in": "Barnet, London, UK",
+				"name": "Cricklewood",
+				"place": "suburb",
+				"wikidata": "Q149830"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2157507, 51.5566986]
+			},
+			"id": "node/447843121"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/450524790",
+				"is_in": "Southwark",
+				"name": "South Bank",
+				"place": "suburb",
+				"wikidata": "Q154322"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.11136531829833984, 51.50444189675956]
+			},
+			"id": "node/450524790"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/529458254",
+				"name": "North Finchley",
+				"place": "suburb",
+				"wikidata": "Q150209"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1756922, 51.6124905]
+			},
+			"id": "node/529458254"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/565457860",
+				"is_in": "Sothwark, London",
+				"name": "Borough",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.093802, 51.5022704]
+			},
+			"id": "node/565457860"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/568572880",
+				"name": "Brockley",
+				"place": "suburb",
+				"wikidata": "Q2216536"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0360868, 51.4578328]
+			},
+			"id": "node/568572880"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/568590483",
+				"name": "Honor Oak",
+				"place": "suburb",
+				"wikidata": "Q13636553"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0399142, 51.4499075]
+			},
+			"id": "node/568590483"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/568590491",
+				"name": "Ladywell",
+				"place": "suburb",
+				"wikidata": "Q6470814"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0203239, 51.4565877]
+			},
+			"id": "node/568590491"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/591984822",
+				"name": "Snaresbrook",
+				"place": "suburb",
+				"wikidata": "Q2612131"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0228777, 51.5831734]
+			},
+			"id": "node/591984822"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/596780321",
+				"alt_name": "Beacontree Heath",
+				"is_in": "Dagenham",
+				"name": "Becontree Heath",
+				"note": "http://www.openstreetmap.org/note/737035",
+				"place": "suburb",
+				"wikidata": "Q1800604"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1478793, 51.5610299]
+			},
+			"id": "node/596780321"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/596796167",
+				"is_in": "Greater London",
+				"name": "Dagenham",
+				"place": "suburb",
+				"wikidata": "Q1075299"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1481142, 51.5413271]
+			},
+			"id": "node/596796167"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597337167",
+				"is_in": "Iver",
+				"name": "Richings Park",
+				"place": "suburb",
+				"source": "local_knowledge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5076939, 51.5073322]
+			},
+			"id": "node/597337167"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597379779",
+				"is_in": "Dagenham",
+				"name": "Scrattons Farm",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1324402, 51.5304104]
+			},
+			"id": "node/597379779"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597379918",
+				"is_in": "Barking",
+				"name": "Thames View",
+				"place": "suburb",
+				"wikidata": "Q16979683"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1043626, 51.5286041]
+			},
+			"id": "node/597379918"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597399332",
+				"is_in": "Greater London",
+				"name": "Hornchurch",
+				"place": "suburb",
+				"wikidata": "Q1656021"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2212279, 51.5613235]
+			},
+			"id": "node/597399332"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597405972",
+				"is_in": "Romford",
+				"name": "Chadwell Heath",
+				"place": "suburb",
+				"wikidata": "Q1058698"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1297842, 51.5700474]
+			},
+			"id": "node/597405972"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597405975",
+				"is_in": "Chadwell Heath",
+				"name": "Marks Gate",
+				"place": "suburb",
+				"wikidata": "Q6771383"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1348482, 51.5863692]
+			},
+			"id": "node/597405975"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597406950",
+				"is_in": "Goodmayes",
+				"name": "Little Heath",
+				"place": "suburb",
+				"wikidata": "Q6650297"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1171352, 51.5808369]
+			},
+			"id": "node/597406950"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597407039",
+				"is_in": "Ilford",
+				"name": "Goodmayes",
+				"place": "suburb",
+				"wikidata": "Q1942855"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.11166572570800781, 51.56234518646433]
+			},
+			"id": "node/597407039"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597407482",
+				"is_in": "Ilford",
+				"name": "Seven Kings",
+				"place": "suburb",
+				"wikidata": "Q957351"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0951492, 51.5657811]
+			},
+			"id": "node/597407482"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/597413690",
+				"is_in": "Greater London;Redbridge, London",
+				"name": "Ilford",
+				"name:ru": "Илфорд",
+				"place": "town",
+				"population": "168168",
+				"wikidata": "Q2297044",
+				"wikipedia": "en:Ilford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0711669, 51.5582734]
+			},
+			"id": "node/597413690"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/626591740",
+				"name": "Balham",
+				"place": "suburb",
+				"wikidata": "Q804946",
+				"wikipedia": "en:Balham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1503643, 51.4456449]
+			},
+			"id": "node/626591740"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/701379193",
+				"is_in": "Kingston Upon Thames;London",
+				"is_in_postal": "Surrey",
+				"name": "Kingston upon Thames",
+				"place": "town",
+				"population": "43013",
+				"todo": "check - this is probably duplicate but I can't find a place node nearby",
+				"wikidata": "Q2321706"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3062621, 51.4096275]
+			},
+			"id": "node/701379193"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/705682847",
+				"is_in": "Upminster",
+				"name": "Corbets Tey",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2513598, 51.5429422]
+			},
+			"id": "node/705682847"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/716816528",
+				"name": "Westbourne Green",
+				"place": "suburb",
+				"source": "os_street_view",
+				"wikidata": "Q123998"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1905973, 51.5187353]
+			},
+			"id": "node/716816528"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/746815313",
+				"name": "Elm Park",
+				"place": "suburb",
+				"source": "os_street_view",
+				"wikidata": "Q2165074"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2021983, 51.544841]
+			},
+			"id": "node/746815313"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/748823935",
+				"is_in": "Greenwich, London",
+				"name": "Woolwich",
+				"name:ru": "Вулидж",
+				"place": "town",
+				"population": "71526",
+				"wikidata": "Q1006232",
+				"wikipedia": "en:Woolwich"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0623335, 51.4826696]
+			},
+			"id": "node/748823935"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/878184976",
+				"is_in": "Watford",
+				"name": "Carpenders Park",
+				"place": "suburb",
+				"wikidata": "Q3660658"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.380024, 51.6294667]
+			},
+			"id": "node/878184976"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/878184986",
+				"is_in": "Watford",
+				"name": "South Oxhey",
+				"place": "suburb",
+				"wikidata": "Q1613044"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3907957, 51.6248579]
+			},
+			"id": "node/878184986"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1123412172",
+				"name": "High Barnet",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2005407, 51.6531493]
+			},
+			"id": "node/1123412172"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1139095970",
+				"is_in": "Merton, London, UK",
+				"name": "Motspur Park",
+				"place": "suburb",
+				"wikidata": "Q6918601"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.24401664733886716, 51.391011931141186]
+			},
+			"id": "node/1139095970"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1224753025",
+				"name": "East Barnet",
+				"place": "suburb",
+				"wikidata": "Q150212"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1628235, 51.6416813]
+			},
+			"id": "node/1224753025"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1224754174",
+				"name": "New Barnet",
+				"place": "suburb",
+				"wikidata": "Q149691"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.171006, 51.6495724]
+			},
+			"id": "node/1224754174"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1224759066",
+				"name": "Brunswick Park",
+				"place": "suburb",
+				"wikidata": "Q149665"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1481899, 51.6262191]
+			},
+			"id": "node/1224759066"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1224759110",
+				"name": "New Southgate",
+				"place": "suburb",
+				"wikidata": "Q149669"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1378851, 51.6171653]
+			},
+			"id": "node/1224759110"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1224760874",
+				"name": "Oakleigh Park",
+				"place": "suburb",
+				"wikidata": "Q149856"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1686559, 51.6374989]
+			},
+			"id": "node/1224760874"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1228088100",
+				"name": "Norbury",
+				"place": "suburb",
+				"wikidata": "Q389071"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12080669403076173, 51.41328685810004]
+			},
+			"id": "node/1228088100"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1313310991",
+				"name": "North Kensington",
+				"place": "suburb",
+				"wikidata": "Q3635112"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2106959, 51.5196647]
+			},
+			"id": "node/1313310991"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1341681399",
+				"is_in": "Newham, London, UK",
+				"name": "Beckton",
+				"place": "suburb",
+				"wikidata": "Q3417728"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0594257, 51.5160797]
+			},
+			"id": "node/1341681399"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1341723818",
+				"is_in": "Newham, London, UK",
+				"name": "Cyprus",
+				"place": "suburb",
+				"wikidata": "Q5200432"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0670869, 51.5091962]
+			},
+			"id": "node/1341723818"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1341723823",
+				"is_in": "Newham, London, UK",
+				"name": "Upton Park",
+				"place": "suburb",
+				"wikidata": "Q7899393",
+				"wikipedia": "en:Upton Park, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.034673, 51.5369171]
+			},
+			"id": "node/1341723823"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1341723836",
+				"is_in": "Newham, London, UK",
+				"name": "Forest Gate",
+				"place": "suburb",
+				"wikidata": "Q1656032",
+				"wikipedia": "en:Forest Gate"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.023860931396484375, 51.549964506565914]
+			},
+			"id": "node/1341723836"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1341723842",
+				"is_in": "Newham, London, UK",
+				"name": "Manor Park",
+				"place": "suburb",
+				"wikidata": "Q2005010",
+				"wikipedia": "en:Manor Park, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0476391, 51.5506867]
+			},
+			"id": "node/1341723842"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1355670856",
+				"name": "Rylands Estate",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1583019, 51.5314455]
+			},
+			"id": "node/1355670856"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1370329100",
+				"name": "Long Ditton",
+				"place": "suburb",
+				"wikidata": "Q6672525"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3199839, 51.384162]
+			},
+			"id": "node/1370329100"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1370329112",
+				"name": "Hinchley Wood",
+				"place": "suburb",
+				"wikidata": "Q5765741"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3389149, 51.3745705]
+			},
+			"id": "node/1370329112"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1452965570",
+				"name": "Stroud Green",
+				"place": "suburb",
+				"wikidata": "Q3976133"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1114972, 51.5716864]
+			},
+			"id": "node/1452965570"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1569016949",
+				"name": "Kilburn",
+				"place": "town",
+				"population": "16989",
+				"wikidata": "Q150214",
+				"wikipedia": "en:Kilburn, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1979358, 51.541882]
+			},
+			"id": "node/1569016949"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1588340047",
+				"is_in": "Surrey,UK",
+				"name": "Epsom",
+				"name:lt": "Epsomas",
+				"place": "town",
+				"wikidata": "Q993164",
+				"wikipedia": "en:Epsom"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2678212, 51.3326098]
+			},
+			"id": "node/1588340047"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1588532106",
+				"is_in": "Surrey, UK",
+				"name": "Cobham",
+				"place": "town",
+				"wikidata": "Q1006990",
+				"wikipedia": "en:Cobham, Surrey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4120821, 51.3300079]
+			},
+			"id": "node/1588532106"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1598181905",
+				"name": "Weybridge",
+				"place": "town",
+				"wikidata": "Q1754096",
+				"wikipedia": "en:Weybridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4549297, 51.3727175]
+			},
+			"id": "node/1598181905"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1604718476",
+				"is_in": "Essex, England, GB",
+				"is_in:continent": "Europe",
+				"is_in:country": "United Kingdom",
+				"is_in:country_code": "GB",
+				"is_in:county": "Essex",
+				"loc_name": "Boredtown",
+				"name": "Brentwood",
+				"name:ru": "Брентвуд",
+				"place": "town",
+				"population": "49463",
+				"wikidata": "Q909993",
+				"wikipedia": "en:Brentwood, Essex"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.3028663, 51.6204094]
+			},
+			"id": "node/1604718476"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1620269020",
+				"description": "http://en.wikipedia.org/wiki/Epping",
+				"is_in": "Essex, England, UK",
+				"is_in:district": "Epping Forest",
+				"name": "Epping",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1094154, 51.6978777]
+			},
+			"id": "node/1620269020"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1639959450",
+				"is_in": "Hammersmith and Fulham, London, UK",
+				"name": "Fulham",
+				"place": "town",
+				"wikidata": "Q3367868",
+				"wikipedia": "en:Fulham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.20951271057128906, 51.477560869113105]
+			},
+			"id": "node/1639959450"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1671182708",
+				"is_in": "Camden, London, UK",
+				"name": "Hampstead",
+				"name:ru": "Хампстед",
+				"place": "suburb",
+				"wikidata": "Q25610",
+				"wikipedia": "en:Hampstead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1740747, 51.5542879]
+			},
+			"id": "node/1671182708"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1699989038",
+				"name": "Addlestone",
+				"place": "town",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q353307",
+				"wikipedia": "en:Addlestone"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4895675, 51.3710908]
+			},
+			"id": "node/1699989038"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1699989053",
+				"name": "Chertsey",
+				"place": "town",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q1070428",
+				"wikipedia": "en:Chertsey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5038294, 51.392296]
+			},
+			"id": "node/1699989053"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1699989059",
+				"name": "Shepperton",
+				"place": "town",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q1545679",
+				"wikipedia": "en:Shepperton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.448532, 51.3957695]
+			},
+			"id": "node/1699989059"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1699989060",
+				"name": "Sunbury-on-Thames",
+				"place": "town",
+				"short_name": "Sunbury",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q2194010",
+				"wikipedia": "en:Sunbury-on-Thames"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.41481971740722656, 51.411894992993766]
+			},
+			"id": "node/1699989060"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1712699729",
+				"is_in": "Merton",
+				"name": "Morden",
+				"place": "suburb",
+				"wikidata": "Q3323858"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1938973, 51.4006852]
+			},
+			"id": "node/1712699729"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1712699730",
+				"is_in": "Merton",
+				"name": "Raynes Park",
+				"place": "suburb",
+				"wikidata": "Q15272035"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2321720123291016, 51.40520274223228]
+			},
+			"id": "node/1712699730"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/1712699731",
+				"is_in": "Merton",
+				"name": "Colliers Wood",
+				"place": "suburb",
+				"wikidata": "Q6820704"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1787853240966797, 51.416712807062936]
+			},
+			"id": "node/1712699731"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1712699734",
+				"is_in": "Merton",
+				"name": "Merton Park",
+				"place": "suburb",
+				"wikidata": "Q1776329"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2019654, 51.4079938]
+			},
+			"id": "node/1712699734"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1712711930",
+				"name": "Lower Morden",
+				"place": "suburb",
+				"wikidata": "Q6693637"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2163635, 51.3897736]
+			},
+			"id": "node/1712711930"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1712711947",
+				"name": "New Malden",
+				"place": "suburb",
+				"wikidata": "Q3054629"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2634066, 51.4053347]
+			},
+			"id": "node/1712711947"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1712794721",
+				"is_in": "Surrey, England, UK",
+				"name": "Walton-on-Thames",
+				"place": "town",
+				"wikidata": "Q2003600",
+				"wikipedia": "en:Walton-on-Thames"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.419814, 51.3856837]
+			},
+			"id": "node/1712794721"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1716927288",
+				"name": "Finsbury",
+				"name:he": "פינסבורי",
+				"place": "suburb",
+				"source": "local_knowledge",
+				"wikidata": "Q1817328",
+				"wikipedia": "en:Finsbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1070713, 51.5265742]
+			},
+			"id": "node/1716927288"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1726232156",
+				"name": "Banstead",
+				"place": "town",
+				"source": "knowledge",
+				"wikidata": "Q2280322",
+				"wikipedia": "en:Banstead"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1986813, 51.3238969]
+			},
+			"id": "node/1726232156"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1733864727",
+				"name": "Chessington",
+				"place": "suburb",
+				"source": "local_knowledge",
+				"wikidata": "Q2220767"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2986216, 51.358336]
+			},
+			"id": "node/1733864727"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1734271740",
+				"name": "Hook",
+				"place": "suburb",
+				"source:name": "knowledge",
+				"wikidata": "Q15224991"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3071453, 51.3678984]
+			},
+			"id": "node/1734271740"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1736768189",
+				"name": "Surbiton",
+				"place": "suburb",
+				"source": "local_knowledge",
+				"wikidata": "Q2453259"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3033105, 51.3937557]
+			},
+			"id": "node/1736768189"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755339535",
+				"name": "Childs Hill",
+				"place": "suburb",
+				"wikidata": "Q149659"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1972494, 51.5629822]
+			},
+			"id": "node/1755339535"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755339536",
+				"name": "Brent Cross",
+				"place": "suburb",
+				"wikidata": "Q833454"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2183801, 51.5767595]
+			},
+			"id": "node/1755339536"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755342824",
+				"name": "West Hendon",
+				"place": "suburb",
+				"wikidata": "Q149712"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2403793, 51.578213]
+			},
+			"id": "node/1755342824"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755342828",
+				"name": "Colindale",
+				"place": "suburb",
+				"wikidata": "Q150191"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.256773, 51.5915192]
+			},
+			"id": "node/1755342828"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755346697",
+				"name": "Colney Hatch",
+				"place": "suburb",
+				"wikidata": "Q149694"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1480126, 51.6025172]
+			},
+			"id": "node/1755346697"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755356230",
+				"name": "Woodside Park",
+				"place": "suburb",
+				"wikidata": "Q149631"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.187084, 51.6208368]
+			},
+			"id": "node/1755356230"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1755356236",
+				"name": "West Finchley",
+				"place": "suburb",
+				"wikidata": "Q150217"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1946371, 51.6088451]
+			},
+			"id": "node/1755356236"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1756264131",
+				"name": "Brimsdown",
+				"place": "suburb",
+				"wikidata": "Q4968147"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.033026, 51.6578095]
+			},
+			"id": "node/1756264131"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1756268163",
+				"name": "Enfield Island Village",
+				"place": "suburb",
+				"wikidata": "Q5377307"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0152805, 51.6693118]
+			},
+			"id": "node/1756268163"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1761641556",
+				"name": "Napsbury",
+				"place": "suburb",
+				"wikidata": "Q6965141"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3145926, 51.7230947]
+			},
+			"id": "node/1761641556"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1769839658",
+				"name": "Chalk Farm",
+				"place": "suburb",
+				"wikidata": "Q2648511",
+				"wikipedia": "en:Chalk Farm"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1508199, 51.5436179]
+			},
+			"id": "node/1769839658"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1769839663",
+				"name": "Belsize Park",
+				"place": "suburb",
+				"wikidata": "Q149570",
+				"wikipedia": "en:Belsize Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1683005, 51.5473926]
+			},
+			"id": "node/1769839663"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/1787971132",
+				"name": "Croxley",
+				"place": "suburb",
+				"wikidata": "Q9666"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4454648, 51.6508446]
+			},
+			"id": "node/1787971132"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1835118621",
+				"is_in": "London",
+				"name": "Sutton",
+				"place": "town",
+				"population": "41483",
+				"wikidata": "Q3139238",
+				"wikipedia": "en:Sutton, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1906996, 51.360398]
+			},
+			"id": "node/1835118621"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1846244237",
+				"name": "West Hampstead",
+				"place": "suburb",
+				"wikidata": "Q149556"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1917279, 51.5509898]
+			},
+			"id": "node/1846244237"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1846244241",
+				"name": "South Hampstead",
+				"place": "suburb",
+				"wikidata": "Q149478"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1852026, 51.5435046]
+			},
+			"id": "node/1846244241"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1846245653",
+				"name": "Tufnell Park",
+				"place": "suburb",
+				"wikidata": "Q2676765"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.139113, 51.5559163]
+			},
+			"id": "node/1846245653"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1846251039",
+				"name": "North Cricklewood",
+				"place": "suburb",
+				"wikidata": "Q149830"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2167865, 51.5661866]
+			},
+			"id": "node/1846251039"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1846253665",
+				"is_in": "London",
+				"name": "Highgate",
+				"place": "suburb",
+				"wikidata": "Q123947"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1526837, 51.5744322]
+			},
+			"id": "node/1846253665"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1846253666",
+				"name": "Hampstead Garden Suburb",
+				"place": "suburb",
+				"wikidata": "Q150195"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1806164, 51.5805081]
+			},
+			"id": "node/1846253666"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1911997473",
+				"name": "Noel Park",
+				"place": "suburb",
+				"wikidata": "Q3877693"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1009153, 51.5970269]
+			},
+			"id": "node/1911997473"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1912019962",
+				"name": "Bowes Park",
+				"place": "suburb",
+				"wikidata": "Q3643247"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1199352, 51.6120257]
+			},
+			"id": "node/1912019962"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/1954935140",
+				"name": "Sanderstead",
+				"place": "suburb",
+				"wikidata": "Q7416166"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0767435, 51.3340837]
+			},
+			"id": "node/1954935140"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2089929392",
+				"name": "Hendon, The Hyde",
+				"place": "suburb",
+				"wikidata": "Q149787"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2386411, 51.5881858]
+			},
+			"id": "node/2089929392"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2089929393",
+				"name": "Grahame Park",
+				"place": "suburb",
+				"wikidata": "Q149468"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.244866, 51.6028898]
+			},
+			"id": "node/2089929393"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2106478607",
+				"name": "Hendon Central",
+				"place": "suburb",
+				"wikidata": "Q149787"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.227022, 51.5828243]
+			},
+			"id": "node/2106478607"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2133924981",
+				"is_in": "Hackney; London",
+				"name": "Hackney",
+				"place": "suburb",
+				"wikidata": "Q5637340"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.05458831787109375, 51.54604147612366]
+			},
+			"id": "node/2133924981"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2142743531",
+				"name": "Thames Ditton",
+				"place": "suburb",
+				"wikidata": "Q954764"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.333709716796875, 51.38860173348145]
+			},
+			"id": "node/2142743531"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2142758741",
+				"name": "Coombe",
+				"place": "suburb",
+				"wikidata": "Q5167577"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2653985, 51.4194499]
+			},
+			"id": "node/2142758741"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143331386",
+				"name": "Forestdale",
+				"place": "suburb",
+				"wikidata": "Q5469222"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0387563, 51.3513283]
+			},
+			"id": "node/2143331386"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143331387",
+				"name": "Waddon",
+				"place": "suburb",
+				"wikidata": "Q1996918"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1181995, 51.3649811]
+			},
+			"id": "node/2143331387"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143342897",
+				"name": "Addiscombe",
+				"place": "suburb",
+				"wikidata": "Q2824155"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0742821, 51.3796916]
+			},
+			"id": "node/2143342897"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143342911",
+				"name": "Broad Green",
+				"place": "suburb",
+				"wikidata": "Q3307425"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1083305, 51.3833946]
+			},
+			"id": "node/2143342911"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143361135",
+				"name": "West Norwood",
+				"place": "suburb",
+				"wikidata": "Q146833"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.10351181030273438, 51.432340441327966]
+			},
+			"id": "node/2143361135"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143774046",
+				"name": "Molesey",
+				"place": "town",
+				"wikidata": "Q624065",
+				"wikipedia": "en:Molesey"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3713094, 51.4029006]
+			},
+			"id": "node/2143774046"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143774725",
+				"name": "Esher",
+				"place": "town",
+				"wikidata": "Q637482",
+				"wikipedia": "en:Esher"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3654406, 51.3693929]
+			},
+			"id": "node/2143774725"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2143779938",
+				"name": "Clapham Junction",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1678664, 51.463615]
+			},
+			"id": "node/2143779938"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2144167585",
+				"name": "Sands End",
+				"place": "suburb",
+				"wikidata": "Q2536762"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1871122, 51.4725454]
+			},
+			"id": "node/2144167585"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2144191662",
+				"name": "Nine Elms",
+				"place": "suburb",
+				"wikidata": "Q3092362"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1362629, 51.4787433]
+			},
+			"id": "node/2144191662"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2144198505",
+				"name": "Putney Vale",
+				"place": "suburb",
+				"wikidata": "Q3411058"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2459701, 51.4380193]
+			},
+			"id": "node/2144198505"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2144202565",
+				"name": "Furzedown",
+				"place": "suburb",
+				"wikidata": "Q3091089"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1537022, 51.424389]
+			},
+			"id": "node/2144202565"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2144212125",
+				"name": "Clapham Park",
+				"place": "suburb",
+				"wikidata": "Q5125871"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1318354, 51.4562426]
+			},
+			"id": "node/2144212125"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2145143960",
+				"name": "Norbiton",
+				"place": "suburb",
+				"wikidata": "Q7050427"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2873963, 51.4099994]
+			},
+			"id": "node/2145143960"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2145146467",
+				"name": "Kingston Vale",
+				"place": "suburb",
+				"wikidata": "Q2054371"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2581379, 51.43185]
+			},
+			"id": "node/2145146467"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2145159697",
+				"name": "Old Malden",
+				"place": "suburb",
+				"wikidata": "Q2792911"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2590897, 51.382484]
+			},
+			"id": "node/2145159697"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2175016407",
+				"name": "Hersham",
+				"place": "suburb",
+				"wikidata": "Q5744439"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3996815, 51.3655959]
+			},
+			"id": "node/2175016407"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2175018262",
+				"name": "Berrylands",
+				"place": "suburb",
+				"wikidata": "Q957632"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2848024, 51.3937811]
+			},
+			"id": "node/2175018262"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2176970106",
+				"name": "St Margarets",
+				"place": "suburb",
+				"website": "http://www.stmgrts.org.uk/",
+				"wikidata": "Q2796930",
+				"wikipedia": "en:St Margarets, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3224118, 51.4567091]
+			},
+			"id": "node/2176970106"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2176976139",
+				"name": "Strawberry Hill",
+				"place": "suburb",
+				"wikidata": "Q1808119"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3399367, 51.4385925]
+			},
+			"id": "node/2176976139"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2268352172",
+				"name": "Notting Hill",
+				"place": "suburb",
+				"wikidata": "Q215354"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2055267, 51.5109995]
+			},
+			"id": "node/2268352172"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2272513642",
+				"name": "Bayswater",
+				"place": "suburb",
+				"wikidata": "Q41890",
+				"wikipedia": "en:Bayswater"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1876323, 51.5124135]
+			},
+			"id": "node/2272513642"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2288027626",
+				"name": "Belgravia",
+				"place": "suburb",
+				"wikidata": "Q123024"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1534998, 51.4982128]
+			},
+			"id": "node/2288027626"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2288030394",
+				"name": "Victoria",
+				"place": "suburb",
+				"wikidata": "Q124000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1413172, 51.4959786]
+			},
+			"id": "node/2288030394"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2288030397",
+				"name": "Millbank",
+				"place": "suburb",
+				"wikidata": "Q124233"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1290435, 51.4926121]
+			},
+			"id": "node/2288030397"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2290086954",
+				"name": "Covent Garden",
+				"place": "suburb",
+				"wikidata": "Q55019"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12320995330810545, 51.51232149907683]
+			},
+			"id": "node/2290086954"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2325649033",
+				"fixme": "need to fix Hayes, Middx vs Hayes, Kent for addresing",
+				"name": "Hayes",
+				"place": "suburb",
+				"source": "local_knowledge",
+				"wikidata": "Q678138",
+				"wikipedia": "en:Hayes, Hillingdon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4181471, 51.5077154]
+			},
+			"id": "node/2325649033"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2369008993",
+				"is_in": "Barnet, London, England, United Kingdom",
+				"name": "Golders Green",
+				"name:he": "גולדרס גרין",
+				"place": "suburb",
+				"wikidata": "Q149684",
+				"wikipedia": "en:Golders Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1955219, 51.5718315]
+			},
+			"id": "node/2369008993"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2392802550",
+				"name": "Canonbury",
+				"place": "suburb",
+				"source": "Local knowledge",
+				"wikidata": "Q123365"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0954008, 51.5430358]
+			},
+			"id": "node/2392802550"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2405848798",
+				"name": "Upper Norwood",
+				"place": "suburb",
+				"wikidata": "Q123292"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0940347, 51.4164053]
+			},
+			"id": "node/2405848798"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2496071363",
+				"is_in": "Brent, London",
+				"name": "Preston",
+				"place": "suburb",
+				"source": "OS_NLS;local_knowledge",
+				"wikidata": "Q146331",
+				"wikipedia": "en:Preston, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2915108, 51.5762155]
+			},
+			"id": "node/2496071363"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2528090562",
+				"name": "North Wembley",
+				"note": "Wikipedia's North Wembley is defined by the tube station and they have a South Kenton, which is really only defined by estate agents. As such I'm not linking WP's article, which is rather slim, anyway.",
+				"place": "suburb",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q145722"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3115614, 51.5677557]
+			},
+			"id": "node/2528090562"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2595103132",
+				"name": "Petts Wood",
+				"place": "suburb",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q123296",
+				"wikipedia": "en:Petts Wood"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0771282, 51.3909147]
+			},
+			"id": "node/2595103132"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2595113712",
+				"name": "Farnborough",
+				"place": "suburb",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q123229",
+				"wikipedia": "en:Farnborough, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.07385730743408203, 51.361545252210135]
+			},
+			"id": "node/2595113712"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2595113717",
+				"name": "Locksbottom",
+				"place": "suburb",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q124015",
+				"wikipedia": "en:Locksbottom"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0625805, 51.3670479]
+			},
+			"id": "node/2595113717"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2595115193",
+				"name": "Bromley Common",
+				"place": "suburb",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q123380",
+				"wikipedia": "en:Bromley Common"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.04574775695800781, 51.37826322353929]
+			},
+			"id": "node/2595115193"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2595123135",
+				"name": "Green Street Green",
+				"place": "suburb",
+				"source": "OS_OpenData_StreetView",
+				"wikidata": "Q124012",
+				"wikipedia": "en:Green Street Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0838757, 51.3507678]
+			},
+			"id": "node/2595123135"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/2714630753",
+				"is_in": "London Borough of Hounslow",
+				"name": "Feltham",
+				"place": "suburb",
+				"source": "local_knowledge",
+				"wikidata": "Q2545812"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.410659, 51.4442232]
+			},
+			"id": "node/2714630753"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3064005585",
+				"name": "Globe Town",
+				"note": "Marker location in Meath Garden matches old OS map label. But is it really the \"true\" place to label as Globe Town?",
+				"place": "suburb",
+				"wikidata": "Q124204",
+				"wikipedia": "en:Bethnal Green#Globe Town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0455728, 51.5274125]
+			},
+			"id": "node/3064005585"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3206941112",
+				"name": "Alperton",
+				"place": "suburb",
+				"wikidata": "Q146427"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2979241, 51.5377679]
+			},
+			"id": "node/3206941112"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3207840655",
+				"name": "Yeading",
+				"place": "suburb",
+				"wikidata": "Q2618633"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3992705, 51.527239]
+			},
+			"id": "node/3207840655"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3207844620",
+				"name": "Northolt",
+				"place": "suburb",
+				"wikidata": "Q83399"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.369565, 51.5465937]
+			},
+			"id": "node/3207844620"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3207863853",
+				"name": "Perivale",
+				"place": "suburb",
+				"wikidata": "Q83294"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3204999, 51.5344736]
+			},
+			"id": "node/3207863853"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3207873659",
+				"name": "Ealing",
+				"name:he": "אילינג",
+				"place": "town",
+				"population": "113777",
+				"wikidata": "Q83726",
+				"wikipedia": "en:Ealing"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3051952, 51.5126553]
+			},
+			"id": "node/3207873659"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3207881701",
+				"name": "Acton",
+				"name:hi": "ऐक्टन, लंदन",
+				"name:ru": "Актон",
+				"place": "suburb",
+				"wikidata": "Q83609",
+				"wikipedia": "en:Acton, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2732607, 51.5081402]
+			},
+			"id": "node/3207881701"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3207956127",
+				"name": "Southall",
+				"name:hi": "साउथॉल",
+				"name:pa": "ਸਾਊਥਹਾਲ",
+				"note": "also known as \"Little India\"",
+				"place": "town",
+				"population": "70000",
+				"wikidata": "Q83434"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3755169, 51.5111461]
+			},
+			"id": "node/3207956127"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3282529867",
+				"is_in": "Greater London",
+				"name": "Upminster",
+				"place": "suburb",
+				"population": "12800",
+				"wikidata": "Q3247232",
+				"wikipedia": "en:Upminster"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2485771, 51.5587447]
+			},
+			"id": "node/3282529867"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3471216197",
+				"name": "Hampton Wick",
+				"place": "suburb",
+				"wikidata": "Q5646331"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3126743, 51.4144519]
+			},
+			"id": "node/3471216197"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3471216198",
+				"name": "Hounslow West",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3896734, 51.4725011]
+			},
+			"id": "node/3471216198"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3471216202",
+				"name": "North Sheen",
+				"place": "suburb",
+				"wikidata": "Q2027808"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2822834, 51.4688862]
+			},
+			"id": "node/3471216202"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3575430433",
+				"is_in": "Bromley, London",
+				"name": "Hayes",
+				"place": "suburb",
+				"wikidata": "Q2690370",
+				"wikipedia": "en:Hayes, Bromley"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0103002, 51.3777836]
+			},
+			"id": "node/3575430433"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3584603472",
+				"name": "Leyton",
+				"place": "suburb",
+				"wikidata": "Q2750829",
+				"wikipedia": "en:Leyton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.010128021240234375, 51.562131755016765]
+			},
+			"id": "node/3584603472"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3904886817",
+				"name": "Fortis Green",
+				"place": "suburb",
+				"wikidata": "Q3748789"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1534208, 51.590997]
+			},
+			"id": "node/3904886817"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3925845657",
+				"name": "Brompton",
+				"place": "suburb",
+				"wikidata": "Q2926028"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1822185516357422, 51.4893199287751]
+			},
+			"id": "node/3925845657"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3925873320",
+				"name": "Burnt Oak",
+				"place": "suburb",
+				"wikidata": "Q150193"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2644503, 51.6049875]
+			},
+			"id": "node/3925873320"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3928672471",
+				"name": "Kingsland",
+				"place": "suburb",
+				"wikidata": "Q6413251"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.08269786834716797, 51.545561081802596]
+			},
+			"id": "node/3928672471"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930389397",
+				"name": "Shacklewell",
+				"place": "suburb",
+				"wikidata": "Q372265"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0701582, 51.5523761]
+			},
+			"id": "node/3930389397"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930403657",
+				"name": "South Tottenham",
+				"place": "suburb",
+				"wikidata": "Q3965583"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.073678, 51.5782495]
+			},
+			"id": "node/3930403657"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930413845",
+				"name": "Tottenham Hale",
+				"place": "suburb",
+				"wikidata": "Q3996004"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0627578, 51.5882436]
+			},
+			"id": "node/3930413845"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930426857",
+				"name": "Manor House",
+				"place": "suburb",
+				"wikidata": "Q26558051"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0909947, 51.570704]
+			},
+			"id": "node/3930426857"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930510015",
+				"name": "Bowes",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1000295, 51.6123266]
+			},
+			"id": "node/3930510015"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930559713",
+				"name": "East Finchley",
+				"place": "suburb",
+				"wikidata": "Q149654"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.166091, 51.5890823]
+			},
+			"id": "node/3930559713"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930560279",
+				"name": "Church End",
+				"place": "suburb",
+				"wikidata": "Q149701"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1918901, 51.601117]
+			},
+			"id": "node/3930560279"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3930564513",
+				"name": "Fallow Corner",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1787368, 51.6057602]
+			},
+			"id": "node/3930564513"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3933850644",
+				"name": "West Kensington",
+				"place": "suburb",
+				"wikidata": "Q3567431"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.207486, 51.4909928]
+			},
+			"id": "node/3933850644"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3933858663",
+				"name": "Earl's Court",
+				"place": "suburb",
+				"wikidata": "Q597906"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1952295, 51.4918874]
+			},
+			"id": "node/3933858663"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/3933862427",
+				"name": "Fulham Broadway",
+				"place": "suburb",
+				"wikidata": "Q631513"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1950367, 51.4813433]
+			},
+			"id": "node/3933862427"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3933865037",
+				"name": "Parson's Green",
+				"place": "suburb",
+				"wikidata": "Q2292222"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1979497, 51.474389]
+			},
+			"id": "node/3933865037"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3934807457",
+				"name": "Copse Hill",
+				"place": "suburb",
+				"wikidata": "Q17986659"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.240302, 51.4179455]
+			},
+			"id": "node/3934807457"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3936965089",
+				"name": "King's Cross",
+				"place": "suburb",
+				"wikidata": "Q6410915"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1206259, 51.5320529]
+			},
+			"id": "node/3936965089"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3936968792",
+				"name": "St. John's Wood",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1742467, 51.5317639]
+			},
+			"id": "node/3936968792"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3936983379",
+				"name": "West Kilburn",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2019082, 51.5279347]
+			},
+			"id": "node/3936983379"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3937580110",
+				"name": "Soho",
+				"place": "suburb",
+				"wikidata": "Q124010"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.13286590576171875, 51.51306932272445]
+			},
+			"id": "node/3937580110"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3937591763",
+				"name": "Temple",
+				"place": "suburb",
+				"wikidata": "Q3624241"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1100526, 51.5128303]
+			},
+			"id": "node/3937591763"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938253583",
+				"name": "Castelnau",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2376876, 51.4826953]
+			},
+			"id": "node/3938253583"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938354608",
+				"name": "Wimbledon Park",
+				"place": "suburb",
+				"wikidata": "Q2920346"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2146625518798828, 51.43704909137486]
+			},
+			"id": "node/3938354608"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938375236",
+				"name": "Earlsfield",
+				"place": "suburb",
+				"wikidata": "Q3046435"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1893941, 51.4464482]
+			},
+			"id": "node/3938375236"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938379795",
+				"name": "Summerstown",
+				"place": "suburb",
+				"wikidata": "Q16248244"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1831657, 51.4343379]
+			},
+			"id": "node/3938379795"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938381837",
+				"name": "Upper Tooting",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1622246, 51.4338415]
+			},
+			"id": "node/3938381837"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938408784",
+				"name": "Lonesome",
+				"note": "Yes, this is a legitimate placename!",
+				"place": "suburb",
+				"source": "http://hidden-london.com/gazetteer/lonesome/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.141313, 51.4075527]
+			},
+			"id": "node/3938408784"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3938413889",
+				"name": "Streatham Vale",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1348400115966797, 51.41805099864197]
+			},
+			"id": "node/3938413889"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939311899",
+				"name": "Shadwell",
+				"place": "suburb",
+				"wikidata": "Q122584"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.053086280822753906, 51.5107723967541]
+			},
+			"id": "node/3939311899"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939325033",
+				"name": "Spitalfields",
+				"place": "suburb",
+				"wikidata": "Q123219",
+				"wikipedia": "en:Spitalfields"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0751701, 51.5195274]
+			},
+			"id": "node/3939325033"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939328592",
+				"name": "Whitechapel",
+				"place": "suburb",
+				"population": "14862",
+				"wikidata": "Q124539"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0620807, 51.5186227]
+			},
+			"id": "node/3939328592"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939359610",
+				"name": "Old Ford",
+				"place": "suburb",
+				"wikidata": "Q124163",
+				"wikipedia": "en:Old Ford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0268215, 51.5341124]
+			},
+			"id": "node/3939359610"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939364338",
+				"name": "Mile End",
+				"place": "suburb",
+				"wikidata": "Q124004",
+				"wikipedia": "en:Mile End"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0350468, 51.5250913]
+			},
+			"id": "node/3939364338"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939373094",
+				"name": "Hackney Wick",
+				"place": "suburb",
+				"wikidata": "Q121623",
+				"wikipedia": "en:Hackney Wick"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.02643585205078125, 51.54414655795907]
+			},
+			"id": "node/3939373094"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939393416",
+				"name": "Clapton Park",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0404086, 51.5563607]
+			},
+			"id": "node/3939393416"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939406669",
+				"name": "Stratford Marsh",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0095941, 51.5393249]
+			},
+			"id": "node/3939406669"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939407454",
+				"name": "Mill Meads",
+				"place": "suburb",
+				"wikidata": "Q6858359"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0034965, 51.5303704]
+			},
+			"id": "node/3939407454"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939499364",
+				"name": "Plashet",
+				"place": "suburb",
+				"wikidata": "Q7201736",
+				"wikipedia": "en:Plashet"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0392744, 51.5400084]
+			},
+			"id": "node/3939499364"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939503731",
+				"name": "Upton",
+				"place": "suburb",
+				"wikidata": "Q24046264",
+				"wikipedia": "pl:Upton (Newham)"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0263178, 51.5419294]
+			},
+			"id": "node/3939503731"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939866762",
+				"name": "Silvertown",
+				"place": "suburb",
+				"wikidata": "Q2695621",
+				"wikipedia": "en:Silvertown"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.038280487060546875, 51.50286581276557]
+			},
+			"id": "node/3939866762"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939924573",
+				"name": "Belvedere",
+				"place": "suburb",
+				"wikidata": "Q147108",
+				"wikipedia": "en:Belvedere, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.15192031860351562, 51.48662095820769]
+			},
+			"id": "node/3939924573"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3939944346",
+				"name": "West Heath",
+				"place": "suburb",
+				"wikidata": "Q146245"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1273574, 51.4808745]
+			},
+			"id": "node/3939944346"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3942034573",
+				"name": "East Ham",
+				"place": "town",
+				"population": "76186",
+				"wikidata": "Q1025593",
+				"wikipedia": "en:East Ham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0553201, 51.5329628]
+			},
+			"id": "node/3942034573"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3943567462",
+				"name": "Lee",
+				"place": "suburb",
+				"wikidata": "Q6512849",
+				"wikipedia": "en:Lee, London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0114959, 51.4565827]
+			},
+			"id": "node/3943567462"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/3943604906",
+				"name": "Kidbrooke",
+				"place": "suburb",
+				"wikidata": "Q2482914",
+				"wikipedia": "en:Kidbrooke"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0285241, 51.4675731]
+			},
+			"id": "node/3943604906"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4001592822",
+				"name": "Angel",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1062704, 51.5318973]
+			},
+			"id": "node/4001592822"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4001592823",
+				"name": "Holloway",
+				"place": "town",
+				"population": "43300",
+				"wikidata": "Q124308"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1183706, 51.5572453]
+			},
+			"id": "node/4001592823"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4001592824",
+				"name": "Tooting",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1690768, 51.4266588]
+			},
+			"id": "node/4001592824"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4053293389",
+				"is_in": "Barking",
+				"name": "Barking Riverside",
+				"place": "suburb",
+				"wikidata": "Q16245919",
+				"wikipedia": "en:Barking Riverside"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1081363, 51.5205472]
+			},
+			"id": "node/4053293389"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4267093235",
+				"name": "Chinbrook",
+				"place": "town",
+				"wikidata": "Q5100292"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.031372, 51.4314987]
+			},
+			"id": "node/4267093235"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4267113371",
+				"name": "Grove Park",
+				"place": "town",
+				"wikidata": "Q5611425"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0213932, 51.4314818]
+			},
+			"id": "node/4267113371"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4267167889",
+				"name": "Longlands",
+				"place": "suburb",
+				"wikidata": "Q146283"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0841774, 51.4304854]
+			},
+			"id": "node/4267167889"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4267255531",
+				"name": "Horn Park",
+				"place": "town"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0260585, 51.4472867]
+			},
+			"id": "node/4267255531"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4270384415",
+				"is_in": "Bexley, London",
+				"name": "Foots Cray",
+				"place": "town",
+				"wikidata": "Q146254",
+				"wikipedia": "en:Foots Cray"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1180187, 51.4186732]
+			},
+			"id": "node/4270384415"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4319720936",
+				"alt_name": "Ongar",
+				"name": "Chipping Ongar",
+				"place": "town",
+				"population": "6093",
+				"source": "OS OpenData StreetView",
+				"wikidata": "Q2069940",
+				"wikipedia": "en:Chipping Ongar"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.2453167, 51.7094315]
+			},
+			"id": "node/4319720936"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4345162200",
+				"name": "Finsbury Park",
+				"place": "suburb",
+				"wikidata": "Q122566"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.10965, 51.5639577]
+			},
+			"id": "node/4345162200"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4511034829",
+				"name": "Hainault",
+				"place": "suburb",
+				"population": "12953",
+				"wikidata": "Q5639401"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.09647369384765625, 51.60602417742818]
+			},
+			"id": "node/4511034829"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4512003104",
+				"name": "Fairlop",
+				"place": "suburb",
+				"population": "12630",
+				"wikidata": "Q2780165"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0819696, 51.5985538]
+			},
+			"id": "node/4512003104"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4743294787",
+				"name": "Canada Water",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0505388, 51.4972278]
+			},
+			"id": "node/4743294787"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4743294788",
+				"name": "East Greenwich",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0104653, 51.4879961]
+			},
+			"id": "node/4743294788"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"@id": "node/4743294789",
+				"name": "North Greenwich",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0054872, 51.4989243]
+			},
+			"id": "node/4743294789"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4743294790",
+				"name": "New Cross",
+				"place": "suburb",
+				"wikidata": "Q369361"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0320638, 51.4749303]
+			},
+			"id": "node/4743294790"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4743294791",
+				"name": "South Bermondsey",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0545085, 51.4868203]
+			},
+			"id": "node/4743294791"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/4743294792",
+				"name": "Surrey Quays",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0444663, 51.4923517]
+			},
+			"id": "node/4743294792"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5067675686",
+				"name": "South End",
+				"place": "suburb",
+				"wikidata": "Q15278751"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0131715, 51.4286029]
+			},
+			"id": "node/5067675686"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5067694335",
+				"name": "Perry Vale",
+				"place": "suburb",
+				"wikidata": "Q15265999"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0430306, 51.435121]
+			},
+			"id": "node/5067694335"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5067878597",
+				"name": "New Beckenham",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0339493, 51.4160631]
+			},
+			"id": "node/5067878597"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5067878598",
+				"name": "Lower Sydenham",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.03673553466796875, 51.42543711118726]
+			},
+			"id": "node/5067878598"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5067878599",
+				"name": "Upper Sydenham",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.072812, 51.4323018]
+			},
+			"id": "node/5067878599"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5069338632",
+				"name": "Shooters Hill",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.066306, 51.4692255]
+			},
+			"id": "node/5069338632"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5069365343",
+				"name": "Avery Hill",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0806051, 51.4506723]
+			},
+			"id": "node/5069365343"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5069365344",
+				"name": "Falconwood",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.079123, 51.4588527]
+			},
+			"id": "node/5069365344"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5069602787",
+				"name": "Blackfen",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1030617, 51.4505408]
+			},
+			"id": "node/5069602787"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5069602788",
+				"name": "Blendon",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1204599, 51.4482606]
+			},
+			"id": "node/5069602788"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070151364",
+				"name": "Ramsden",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1192722, 51.3772138]
+			},
+			"id": "node/5070151364"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070151365",
+				"name": "Goddington",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1117289, 51.3690444]
+			},
+			"id": "node/5070151365"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070263814",
+				"name": "Southborough",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0446175, 51.3899151]
+			},
+			"id": "node/5070263814"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070369070",
+				"name": "Crofton",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.078355, 51.3782254]
+			},
+			"id": "node/5070369070"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070369071",
+				"name": "Shortlands",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.001434, 51.4060917]
+			},
+			"id": "node/5070369071"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070369105",
+				"name": "Sundridge",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0202065, 51.4198856]
+			},
+			"id": "node/5070369105"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5070378290",
+				"name": "Bickley",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0437122, 51.4017399]
+			},
+			"id": "node/5070378290"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5071824799",
+				"name": "Poverest",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0952291488647461, 51.38841426834215]
+			},
+			"id": "node/5071824799"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5071840980",
+				"name": "St Paul's Cray",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.118389, 51.4031864]
+			},
+			"id": "node/5071840980"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5152273892",
+				"name": "Albany Park",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1259205, 51.4361034]
+			},
+			"id": "node/5152273892"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5177663434",
+				"name": "North Cray",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1345992, 51.4251795]
+			},
+			"id": "node/5177663434"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5182147055",
+				"name": "Elmstead",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0469182, 51.4181888]
+			},
+			"id": "node/5182147055"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5186640030",
+				"name": "Crayford",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1787188, 51.4515584]
+			},
+			"id": "node/5186640030"
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@id": "node/5186655480",
+				"name": "Northumberland Heath",
+				"place": "suburb"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1611451, 51.4711864]
+			},
+			"id": "node/5186655480"
+		}, {
+			"type": "Feature",
+			"properties": {},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.24959564208984375, 51.50655216115383]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.21552085876464844, 51.372316183248635]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Cheam"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.21646499633789062, 51.35650723092228]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Ewell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.25139808654785156, 51.34937802008044]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Excel Centre"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.030512809753417965, 51.50914311161548]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Bank"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.08883476257324219, 51.513363107227256]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Old Kent Road"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.07304191589355469, 51.48678129755648]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Tower of London"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.07578849792480469, 51.50954376090435]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Westminster"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12780189514160156, 51.49947304022636]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "St. James's"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1375436782836914, 51.5054035483508]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "St. Paul's"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.09823322296142578, 51.51360347495666]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Marble Arch"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1588296890258789, 51.51344322994464]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Hyde Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1616191864013672, 51.50703296721856]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Regent's Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1540660858154297, 51.53053285458183]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Primrose Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.16127586364746094, 51.539101954546524]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Harlesden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2573204040527344, 51.53613899029705]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "North Acton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2629852294921875, 51.521134354675056]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Park Royal"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.28512954711914057, 51.52845039975189]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Gunnersbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.278778076171875, 51.492018739579336]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Turnham Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.259552001953125, 51.493728794427405]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "South Ealing"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3046989440917969, 51.50030122060505]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "South Ruislip"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.39585113525390625, 51.558716715617386]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Denham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5015087127685547, 51.58309660926156]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Harefield"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.48133850097656256, 51.60501134322062]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Hanworth"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.38907051086425776, 51.434320273775626]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Wormwood Scrubs"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2392101287841797, 51.52102754239191]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Kensal Green"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.22521972656249997, 51.53079982908148]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Queen's Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.21234512329101562, 51.53843463708563]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Neasden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2533721923828125, 51.56026418711984]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Kenton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3108787536621094, 51.57701619673675]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Queensbury"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2874469757080078, 51.594428540006504]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Elstree"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.29972076416015625, 51.64316358525212]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Garston"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3930187225341797, 51.68245453382758]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Leavesden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4075241088867187, 51.69166008441166]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Radlett"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3177452087402343, 51.685540996368815]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Chelsfield"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.11252403259277344, 51.35581043968144]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Highams Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.0009441375732421874, 51.60986208097154]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Gants Hill"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.06651878356933594, 51.576642811561584]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Redbridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.04557609558105469, 51.57669615248873]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Hampton Court"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.34070491790771484, 51.40249879513265]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Claygate"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.33843040466308594, 51.360794943732145]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Keston"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.028152465820312497, 51.36138447285671]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Aldgate"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.07523059844970703, 51.514832001321224]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "South Hackney"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.049266815185546875, 51.538274479439075]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Hampstead Heath"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.16754150390625, 51.566240134420916]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Ravenscourt Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2388668060302734, 51.49677467073]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Putney Heath"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.22161483764648438, 51.451760494722905]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Richmond Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.274658203125, 51.443843673881716]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Chancery Lane"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.11166572570800781, 51.51806340159923]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Liverpool Street"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.08119583129882812, 51.518624199789016]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "London Bridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.08565902709960938, 51.50489601254001]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Tokyngton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2766752243041992, 51.547589378878264]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Iver"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.5093193054199219, 51.52182862840921]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Canary Wharf"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.019268989562988278, 51.504014489537944]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Bushy Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3373146057128906, 51.412483864171726]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Hatton"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.41769504547119135, 51.46571857060405]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Stanwell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.47790527343749994, 51.45384645548734]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Harlington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.43593406677246094, 51.48747609488592]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Sipson"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.45584678649902344, 51.48907943293123]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Heathrow Airport T1/2/3"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4550743103027343, 51.47063764118985]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Heathrow T5"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4880332946777343, 51.47170693418584]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Heathrow T4"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.4455041885375976, 51.45879354542008]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "St. Helier"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.17876386642456055, 51.38517367812408]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Selhurst"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.0881052017211914, 51.391306502148296]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Charing Cross"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1244974136352539, 51.507059678517834]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Kensington Gardens"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.18088817596435547, 51.506445314672646]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Chase Cross"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.17998695373535156, 51.60357201363794]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Abridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.11861801147460938, 51.65061977147669]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Debden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.08316993713378906, 51.647797216650844]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Tadworth"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.23371696472167966, 51.28999635023678]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Tattenham Corner"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2362060546875, 51.306150195330034]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Waltham Cross"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.03038406372070312, 51.68506207631767]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"name": "Totteridge"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.19929885864257812, 51.63264295154874]
+			}
+		}
+	]
+}

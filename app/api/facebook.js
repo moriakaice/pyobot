@@ -379,7 +379,11 @@ class FacebookAPI {
     description.push(`TL: ${pokemon.remainingTime} (till ${pokemon.expiryTime})`)
 
     if (pokemon.closestStation) {
-      description.push('STN: ' + pokemon.closestStation.point.name)
+      if (pokemon.closestStation.point && pokemon.closestStation.point.name) {
+        description.push('STN: ' + pokemon.closestStation.point.name)
+      } else {
+        description.push('STN: ' + pokemon.closestStation)
+      }
     }
 
     if (pokemon.move1 || pokemon.move2) {
@@ -408,7 +412,7 @@ class FacebookAPI {
     customBody = customBody ? customBody : ''
 
     if (pokemon.closestStation) {
-      pokemon.closestStationName = pokemon.closestStation.point.name
+      pokemon.closestStationName = pokemon.closestStation.point && pokemon.closestStation.point.name ? pokemon.closestStation.point.name : pokemon.closestStation
     }
 
     const allowedKeys = ["cp", "attack", "defence", "stamina", "move1", "move2", "gender", "id", "name", "iv", "ivPercent", "suburb", "postcode", "niceName", "remainingTime", "expiryTime", "location", "locationMapUrl", "closestStationName", "distance", "level"]
