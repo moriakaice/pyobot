@@ -237,7 +237,7 @@ const pokemonUtil = {
     }
   },
   cleanOldPokemon: () => {
-    db.remove({ despawn: { $lt: parseInt(new Date().getTime() / 1000 - 6 * 60 * 60, 10) } }, { multi: true }, (err, numRemoved) => {
+    db.remove({ despawn: { $lt: parseInt(new Date().getTime() / 1000 - 5 * 60, 10) } }, { multi: true }, (err, numRemoved) => {
       logger.log('[neDB] Cleaned old Pokemon from DB: ' + numRemoved)
       db.persistence.compactDatafile()
       setTimeout(pokemonUtil.cleanOldPokemon, 60 * 60 * 1000)
